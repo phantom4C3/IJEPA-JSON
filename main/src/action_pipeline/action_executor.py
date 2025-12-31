@@ -420,10 +420,7 @@ class ActionExecutor:
         else:
             print(f"✅ DEBUG: NO ALIGN NEEDED (err < 5.7°)")
 
- 
-        
-        
-        
+  
         while step_id < MAX_STEPS:
             # 🎯 CONTINUOUSNAVAGENT LOGIC START
             
@@ -564,14 +561,14 @@ class ActionExecutor:
             else:
                 # NORMAL navigation with I-JEPA bias
                 # 🔥 PROPORTIONAL MAIN-NAV DURATION (reuse DT — no new vars)
+
+                lin_vel = min(MAX_LIN, dist)
+                ang_vel = np.clip(yaw_err * 2.0 + ijepa_bias, -MAX_ANG, MAX_ANG)
                 DT = abs(yaw_err) / max(abs(ang_vel), 1e-3)
                 print(
                     f"⏱️ MAIN NAV DT = {DT:.3f}s "
                     f"(yaw_err={yaw_err:.2f}, ang_vel={ang_vel:.2f})"
                 )
-
-                lin_vel = min(MAX_LIN, dist)
-                ang_vel = np.clip(yaw_err * 2.0 + ijepa_bias, -MAX_ANG, MAX_ANG)
                 print(f"✅ NORMAL MODE: lin={lin_vel:.2f} ang={ang_vel:.2f} (yaw_err*2={yaw_err*2:.2f} + ijepa={ijepa_bias:.2f})")
                 
                 # 🔥 PRE-COLLISION SAFETY GATE (ZERO-SHOT SAFE)
@@ -597,10 +594,9 @@ class ActionExecutor:
 
             print(f"🎯 FINAL VELOCITY: lin_vel={lin_vel:.3f} ang_vel={ang_vel:.3f}")
 
- 
             
             print(f"Linear velocity : {lin_vel}")
-            print(f"Angular veloctiy : {ang_vel}")
+            print(f"Angular veloctiy : -{ang_vel}")
             
             
             # Store continuous nav data
@@ -686,7 +682,8 @@ class ActionExecutor:
             step_collided = result.get("collided", False)
             filtered_contacts = result.get("filtered_contacts", []) 
             print(f"step collided data from results : {step_collided} and collision contacrts : {len(filtered_contacts)}")
-
+            
+            
              # 9. UPDATE FROM HABITAT FEEDBACK (CRITICAL!) 
             
             if (result and 'new_position' in result and 
@@ -732,106 +729,132 @@ class ActionExecutor:
              
             print(f"Step Collided or not  _execute_continuous_navigation: {step_collided}")        
             
-            
+            tangent_dir_xz = None  # cache for recovery
+
+           
+           
             if step_collided and filtered_contacts:
-                collision_occurred = True
-                self.collision_count += 1
-                print(f"⚠️ Collision at step {step_id} — CONTINUOUS RECOVERY")
- 
-                ang_vel_recovery = +4.0  # default right spin
-                lin_vel_recovery = 0.3 
-                # -------------------------------------------
- 
+                    collision_occurred = True
+                    self.collision_count += 1
+                    print(f"⚠️ Collision at step {step_id} — TANGENT RECOVERY")
 
-                if depth == "FRONT":
-                    # 🚧 TRUE BLOCKING OBSTACLE
-                    if side == "LEFT":
-                        # obstacle on LEFT → turn RIGHT
-                        ang_vel_recovery = -4.0
-                        print("🧱 [RECOVERY] FRONT + LEFT → TURN RIGHT")
+                    # --- A. Extract Normal and Project to Ground ---
+                    contact = filtered_contacts[0]  # strongest / filtered already
+                    raw_normal = np.array(contact["normal"], dtype=np.float32)
 
-                    elif side == "RIGHT":
-                        # obstacle on RIGHT → turn LEFT
-                        ang_vel_recovery = +4.0
-                        print("🧱 [RECOVERY] FRONT + RIGHT → TURN LEFT")
+                    obj_normal_xz = np.array([raw_normal[0], raw_normal[2]])
+                    norm = np.linalg.norm(obj_normal_xz)
 
+                    tangent_dir_xz = None
+                    if norm < 1e-4:
+                        print("⚠️ Degenerate object normal, skipping tangent")
                     else:
-                        # FRONT but unclear side → rotate in place
-                        ang_vel_recovery = +4.0
-                        lin_vel_recovery = 0.0
-                        print("🧱 [RECOVERY] FRONT + UNKNOWN → ROTATE")
+                        obj_normal_xz /= norm
+                        print(f"🧱 OBJECT NORMAL (XZ): {obj_normal_xz}")
 
-                elif depth == "BACK":
-                    # 🧽 SCRAPING / ROTATIONAL CONTACT
-                    # DO NOT turn — allow forward motion to pull robot away
-                    ang_vel_recovery = 0.0
+                        # --- B. Compute both tangents ---
+                        tangent_left  = np.array([-obj_normal_xz[1],  obj_normal_xz[0]])
+                        tangent_right = np.array([ obj_normal_xz[1], -obj_normal_xz[0]])
+
+                        # --- C. Choose tangent USING OBSTACLE SIDE (STABLE) ---
+                        if side == "LEFT":
+                            tangent_dir_xz = tangent_right
+                            print("🧭 Tangent chosen: RIGHT (obstacle on LEFT)")
+                        elif side == "RIGHT":
+                            tangent_dir_xz = tangent_left
+                            print("🧭 Tangent chosen: LEFT (obstacle on RIGHT)")
+                        else:
+                            tangent_dir_xz = tangent_right
+                            print("🧭 Tangent chosen: DEFAULT RIGHT (side unknown)")
+
+                        # Final normalization
+                        tangent_dir_xz /= max(np.linalg.norm(tangent_dir_xz), 1e-4)
+                        print(f"➡️ FINAL TANGENT DIR (XZ): {tangent_dir_xz}")
+
+                    # --- D. Determine Recovery Direction ---
+                    ang_vel_recovery = 4.0 
                     lin_vel_recovery = 0.3
-                    print("🧽 [RECOVERY] BACK contact → FORWARD ONLY (no turn)")
 
- 
+                    if depth == "FRONT":
+                        ang_vel_recovery = -4.0 if side == "LEFT" else 4.0
+                        print(f"🧱 [RECOVERY] FRONT + {side} → TURN {'RIGHT' if side=='LEFT' else 'LEFT'}")
+                    elif depth == "BACK":
+                        ang_vel_recovery = 0.0
+                        lin_vel_recovery = 0.3
+                        print("🧽 [RECOVERY] BACK contact → FORWARD ONLY")
 
-                # 🔥 STUCK OVERRIDE (REUSE SAME DECISION)
-                if recovery_bias != 0.0:
-                    print("🚨 [COLLISION+STUCK] Using SAME escape bias")
-                    ang_vel_recovery = recovery_bias
+                    # 🔥 STUCK OVERRIDE (REUSE SAME DECISION)
+                    if recovery_bias != 0.0:
+                        print("🚨 [COLLISION+STUCK] Using SAME escape bias")
+                        ang_vel_recovery = recovery_bias
 
- 
-                # 🔥 4. FLATTEN ROTATION (UNCHANGED)
- 
-                current_quat = self.flatten_quaternion_to_yaw(current_quat)
- 
-                # 🔥 5. EXECUTE RECOVERY (UNCHANGED)
-  
-                for recovery_attempt in range(1):
-                    print(f"🔄 Recovery attempt {recovery_attempt+1}, ang_vel={ang_vel_recovery}")
-                    
-                    
-                    # 🔥 COMPUTE RECOVERY TURN DURATION (fixed-angle escape)
-                    RECOVERY_YAW = math.pi / 2  # 90° escape turn
+                    # 🔥 4. FLATTEN ROTATION
+                    current_quat = self.flatten_quaternion_to_yaw(current_quat)
 
-                    recovery_duration = min(
-                        0.5,
-                        RECOVERY_YAW / max(abs(ang_vel_recovery), 1e-3)
-                    )
+                    # 🔥 5. EXECUTE RECOVERY (5 ATTEMPTS)
+                    recovery_success = False
+                    for recovery_attempt in range(5):
+                        print(f"🔄 Recovery attempt {recovery_attempt+1}, ang_vel={ang_vel_recovery}")
 
-                    print(
-                        f"⏱️ RECOVERY DURATION = {recovery_duration:.3f}s "
-                        f"(ang={ang_vel_recovery:.2f} rad/s)"
-                    )
+                        # 🔥 COMPUTE RECOVERY TURN DURATION (90° escape turn)
+                        RECOVERY_YAW = math.pi / 2
+                        recovery_duration = min(0.5, RECOVERY_YAW / max(abs(ang_vel_recovery), 1e-3))
+
+                        # Params defined INSIDE the loop as requested
+                     
+                        linear_speed = 0.2  # forward speed along tangent
+
+                        if tangent_dir_xz is not None:
+                            # tangent_dir_xz is a normalized 2D vector [x, z]
+                            lin_vel_recovery_x = tangent_dir_xz[0] * linear_speed
+                            lin_vel_recovery_z = tangent_dir_xz[1] * linear_speed
+                        else:
+                            # fallback if tangent not valid
+                            lin_vel_recovery_x = 0.0
+                            lin_vel_recovery_z = -linear_speed  # move forward in local frame
+
+                        recovery_params = {
+                            "linear_velocity": [lin_vel_recovery_x, 0.0, lin_vel_recovery_z],
+                            "angular_velocity": [0.0, float(ang_vel_recovery), 0.0],
+                            "duration": float(recovery_duration),
+                            "is_velocity_command": True
+                        }
 
 
-                    recovery_params = {
-                        "linear_velocity": [0.0, 0.0, 0.3],
-                        "angular_velocity": [0.0, float(ang_vel_recovery), 0.0],
-                        "duration": float(recovery_duration),
-                        "is_velocity_command": True
-                    }
+                        recovery_metadata = {
+                            "continuous_nav": True,
+                            "recovery": True,
+                            "attempt": recovery_attempt,
+                            "ang_vel": float(ang_vel_recovery),
+                            "tangent_xz": tangent_dir_xz.tolist() if tangent_dir_xz is not None else None
+                        }
 
-                    recovery_metadata = {
-                        "continuous_nav": True,
-                        "recovery": True,
-                        "attempt": recovery_attempt,
-                        "ang_vel": float(ang_vel_recovery)
-                    }
+                        recovery_id = self.habitat_store.push_action_to_habitat_store(
+                            "velocity_control", recovery_params, recovery_metadata
+                        )
 
-                    recovery_id = self.habitat_store.push_action_to_habitat_store(
-                        "velocity_control", recovery_params, recovery_metadata
-                    )
+                        recovery_result = None
+                        while recovery_result is None:
+                            recovery_result = self.habitat_store.get_action_result(recovery_id)
+                            if recovery_result is None:
+                                time.sleep(0.05)
 
-                    recovery_result = None
-                    while recovery_result is None:
-                        recovery_result = self.habitat_store.get_action_result(recovery_id)
-                        if recovery_result is None:
-                            time.sleep(0.05)
+                        if recovery_result and not recovery_result.get("collided", False):
+                            recovery_success = True
+                            print("✅ Recovery succeeded (No collision detected)")
+                            
+                            # Update position/rotation after successful recovery
+                            if 'new_position' in recovery_result:
+                                current_pos = np.array(recovery_result['new_position'][:3])
+                            if 'new_rotation' in recovery_result:
+                                current_quat = self.flatten_quaternion_to_yaw(recovery_result['new_rotation'])
+                            break
+                        else:
+                            print(f"❌ Recovery attempt {recovery_attempt+1} still collided")
 
-                    if recovery_result and not recovery_result.get("collided", False):
-                        recovery_success = True
-                        print("✅ Recovery succeeded!")
-                        break
-                    else:
-                        print("❌ Recovery still collided")
-
-                continue  # next navigation step
+                    continue  # Next navigation step
+           
+           
                  
             
             step_id += 1
