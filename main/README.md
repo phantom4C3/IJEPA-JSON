@@ -1,3 +1,7 @@
+Actively Building !! 
+Work in Progress !! 
+
+
 This README provides a comprehensive overview of your robotics pipeline, organized by its modular directory structure. It highlights how the **Perception**, **Prediction**, **Reasoning**, and **Action** layers interact through the centralized **Stores**.
 
 ---
@@ -97,7 +101,4 @@ Analyzes incoming frames against a set of prototype images to generate a `contin
 * **Pybind11** (for ORB_SLAM3 bindings)
 * **PyTorch** (for I-JEPA inference)
 * **NumPy / SciPy** (for Umeyama alignment and vector math)
-
----
-
-**Would you like me to add a "Troubleshooting" section or a specific "API Reference" for the HabitatStore interaction?**
+ 
