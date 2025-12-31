@@ -1,0 +1,208 @@
+{
+  "pred_reason_1767144442297_1767144444317": {
+    "created_at": 1767144444.3177586,
+    "predictors": {
+      "collision_risk": {
+        "data": {
+          "prediction_id": "pred_reason_1767144442297_1767144444317",
+          "predictor_type": "collision_risk",
+          "timestamp": 1767144444.317865,
+          "status": "completed",
+          "risk_assessment": {
+            "overall_risk_level": "low",
+            "max_collision_risk": 0.0,
+            "safe_navigation_confidence": 1.0,
+            "immediate_danger": false
+          },
+          "action_risks": {
+            "move_forward": {
+              "risk_score": 0.0,
+              "risk_level": "low",
+              "feasible": true,
+              "primary_risk_factors": [
+                "clear_path"
+              ],
+              "recommended_speed": "normal"
+            },
+            "turn_left": {
+              "risk_score": 0.0,
+              "risk_level": "low",
+              "feasible": true,
+              "primary_risk_factors": [
+                "clear_path"
+              ],
+              "recommended_speed": "normal"
+            },
+            "turn_right": {
+              "risk_score": 0.0,
+              "risk_level": "low",
+              "feasible": true,
+              "primary_risk_factors": [
+                "clear_path"
+              ],
+              "recommended_speed": "normal"
+            }
+          },
+          "collision_zones": {
+            "high_risk_zones": [],
+            "medium_risk_zones": []
+          },
+          "safety_margins": {
+            "robot_radius": 0.3,
+            "safety_buffer": 0.5,
+            "min_safe_distance": 0.8,
+            "emergency_stop_distance": 0.4
+          },
+          "data_sources_used": {
+            "robot_position": false,
+            "semantic_objects": 0,
+            "orb_slam_points": 0,
+            "point_cloud_radius": 3.0
+          },
+          "processing_metrics": {
+            "processing_time_ms": 0.0934600830078125,
+            "algorithm_version": "1.0"
+          }
+        },
+        "status": "completed",
+        "completed_at": 1767144444.3178802,
+        "source": "collision_risk_predictor"
+      },
+      "structural_continuity": {
+        "data": {
+          "prediction_id": "pred_reason_1767144442297_1767144444317",
+          "predictor_type": "structural_continuity",
+          "timestamp": 1767144445.239774,
+          "status": "completed",
+          "structural_analysis": {
+            "current_structure_type": "free_space",
+            "structural_confidence": 0.5806429386138916,
+            "embedding_stability": 0.5,
+            "frame_id": 0,
+            "similarity_scores": {
+              "free_space": 0.5806429386138916
+            }
+          },
+          "continuity_predictions": {
+            "move_forward": {
+              "action": "move_forward",
+              "continuity_score": 0.2903214693069458,
+              "map_context_confidence": 0.5,
+              "structural_confidence": 0.5806429386138916,
+              "embedding_stability": 0.5,
+              "continuity_type": "structural_break",
+              "similarity_scores": {
+                "free_space": 0.5806429386138916
+              }
+            },
+            "turn_left": {
+              "action": "turn_left",
+              "continuity_score": 0.17419288158416749,
+              "map_context_confidence": 0.5,
+              "structural_confidence": 0.5806429386138916,
+              "embedding_stability": 0.5,
+              "continuity_type": "structural_break",
+              "similarity_scores": {
+                "free_space": 0.5806429386138916
+              }
+            },
+            "turn_right": {
+              "action": "turn_right",
+              "continuity_score": 0.17419288158416749,
+              "map_context_confidence": 0.5,
+              "structural_confidence": 0.5806429386138916,
+              "embedding_stability": 0.5,
+              "continuity_type": "structural_break",
+              "similarity_scores": {
+                "free_space": 0.5806429386138916
+              }
+            }
+          },
+          "structural_risks": {
+            "move_forward": {
+              "risk_level": "medium",
+              "risk_score": 0.4806463837623596,
+              "continuity_score": 0.2903214693069458,
+              "prototype_similarity": 0.5806429386138916,
+              "stability": 0.5,
+              "factors": {
+                "low_continuity": true,
+                "low_prototype_similarity": "False",
+                "low_stability": true,
+                "structural_break": true,
+                "no_prototype_match": "False"
+              },
+              "similarity_contributions": {
+                "free_space": 0.5806429386138916
+              },
+              "risk_components": {
+                "continuity_risk": 0.3548392653465271,
+                "prototype_risk": 0.1258071184158325,
+                "stability_penalty": 0.0
+              }
+            },
+            "turn_left": {
+              "risk_level": "medium",
+              "risk_score": 0.5387106776237488,
+              "continuity_score": 0.17419288158416749,
+              "prototype_similarity": 0.5806429386138916,
+              "stability": 0.5,
+              "factors": {
+                "low_continuity": true,
+                "low_prototype_similarity": "False",
+                "low_stability": true,
+                "structural_break": true,
+                "no_prototype_match": "False"
+              },
+              "similarity_contributions": {
+                "free_space": 0.5806429386138916
+              },
+              "risk_components": {
+                "continuity_risk": 0.41290355920791627,
+                "prototype_risk": 0.1258071184158325,
+                "stability_penalty": 0.0
+              }
+            },
+            "turn_right": {
+              "risk_level": "medium",
+              "risk_score": 0.5387106776237488,
+              "continuity_score": 0.17419288158416749,
+              "prototype_similarity": 0.5806429386138916,
+              "stability": 0.5,
+              "factors": {
+                "low_continuity": true,
+                "low_prototype_similarity": "False",
+                "low_stability": true,
+                "structural_break": true,
+                "no_prototype_match": "False"
+              },
+              "similarity_contributions": {
+                "free_space": 0.5806429386138916
+              },
+              "risk_components": {
+                "continuity_risk": 0.41290355920791627,
+                "prototype_risk": 0.1258071184158325,
+                "stability_penalty": 0.0
+              }
+            }
+          },
+          "processing_metrics": {
+            "processing_time_ms": 921.8761920928955,
+            "frame_id": 0,
+            "model_used": "ijepa",
+            "prototypes_loaded": 1
+          },
+          "data_sources_used": {
+            "frame_buffer": true,
+            "prediction_store": true,
+            "task_store": true,
+            "prototypes_available": true
+          }
+        },
+        "status": "completed",
+        "completed_at": 1767144445.2405343,
+        "source": "ijepa_predictor"
+      }
+    }
+  }
+}

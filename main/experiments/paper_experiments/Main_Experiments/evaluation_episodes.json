@@ -1,0 +1,3504 @@
+{
+  "episodes": [
+    {
+      "episode_id": "00800_microwave_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [1.55, 1.0, -0.48],
+        "yaw": -1.51
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100000
+    },
+    {
+      "episode_id": "00800_armchair_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-0.57, 1.0, 1.7],
+        "yaw": -1.24
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100001
+    },
+    {
+      "episode_id": "00800_armchair_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-0.85, 1.0, 2.35],
+        "yaw": -1.77
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100002
+    },
+    {
+      "episode_id": "00800_tv_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-1.31, 1.0, 1.53],
+        "yaw": 0.74
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100003
+    },
+    {
+      "episode_id": "00800_plant_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [2.92, 1.0, 0.2],
+        "yaw": 1.29
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100004
+    },
+    {
+      "episode_id": "00800_tv_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-0.14, 1.0, -2.52],
+        "yaw": 2.5
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100005
+    },
+    {
+      "episode_id": "00800_trashcan_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-0.17, 1.0, -2.4],
+        "yaw": -0.41
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100006
+    },
+    {
+      "episode_id": "00800_cabinet_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [2.8, 1.0, -0.14],
+        "yaw": 2.29
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100007
+    },
+    {
+      "episode_id": "00800_plant_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [2.0, 1.0, 3.0],
+        "yaw": 2.61
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100008
+    },
+    {
+      "episode_id": "00800_couch_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-0.99, 0.6, -3.99],
+        "yaw": 2.04
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100009
+    },
+    {
+      "episode_id": "00800_chair_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [0.67, 1.0, -5.97],
+        "yaw": -1.05
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100010
+    },
+    {
+      "episode_id": "00800_trashcan_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [1.22, 1.0, -2.62],
+        "yaw": 2.62
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100011
+    },
+    {
+      "episode_id": "00800_nightstand_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-1.57, 1.0, 2.81],
+        "yaw": 1.9
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100012
+    },
+    {
+      "episode_id": "00800_toilet_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-2.45, 1.0, 2.96],
+        "yaw": 2.36
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100013
+    },
+    {
+      "episode_id": "00800_armchair_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-2.35, 1.0, 0.31],
+        "yaw": 1.3
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100014
+    },
+    {
+      "episode_id": "00800_trashcan_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [1.89, 1.0, 0.24],
+        "yaw": 2.91
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100015
+    },
+    {
+      "episode_id": "00800_lamp_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-0.33, 1.0, 0.58],
+        "yaw": -0.72
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100016
+    },
+    {
+      "episode_id": "00800_nightstand_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-1.26, 1.0, -1.86],
+        "yaw": -1.97
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100017
+    },
+    {
+      "episode_id": "00800_plant_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-0.14, 1.0, -2.46],
+        "yaw": 1.62
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100018
+    },
+    {
+      "episode_id": "00800_tv_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [2.54, 1.0, 2.05],
+        "yaw": 2.5
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100019
+    },
+    {
+      "episode_id": "00800_microwave_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [2.03, 1.0, 0.15],
+        "yaw": 0.14
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100020
+    },
+    {
+      "episode_id": "00800_nightstand_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [2.1, 1.0, 2.37],
+        "yaw": 0.56
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100021
+    },
+    {
+      "episode_id": "00800_sink_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [0.48, 1.0, -0.3],
+        "yaw": 1.01
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100022
+    },
+    {
+      "episode_id": "00800_refrigerator_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [-2.51, 1.0, 0.68],
+        "yaw": -0.09
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100023
+    },
+    {
+      "episode_id": "00800_trashcan_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+      "start_pose": {
+        "position": [2.07, 1.0, -1.54],
+        "yaw": 1.45
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100024
+    },
+    {
+      "episode_id": "00801_bed_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [1.23, 1.0, -0.77],
+        "yaw": -2.07
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100025
+    },
+    {
+      "episode_id": "00801_sink_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [1.9, 1.0, -2.4],
+        "yaw": -2.22
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100026
+    },
+    {
+      "episode_id": "00801_nightstand_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-2.73, 1.0, 0.44],
+        "yaw": 2.57
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100027
+    },
+    {
+      "episode_id": "00801_couch_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-2.84, 1.0, 0.81],
+        "yaw": 0.67
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100028
+    },
+    {
+      "episode_id": "00801_bed_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-0.65, 1.0, -0.78],
+        "yaw": 3.02
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100029
+    },
+    {
+      "episode_id": "00801_table_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [0.63, 1.0, -1.83],
+        "yaw": 2.96
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100030
+    },
+    {
+      "episode_id": "00801_bed_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-0.12, 1.0, 1.36],
+        "yaw": -2.76
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100031
+    },
+    {
+      "episode_id": "00801_chair_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [0.27, 1.0, 0.72],
+        "yaw": 2.11
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100032
+    },
+    {
+      "episode_id": "00801_couch_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-1.68, 1.0, 0.88],
+        "yaw": -0.94
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100033
+    },
+    {
+      "episode_id": "00801_wardrobe_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-2.63, 1.0, -0.2],
+        "yaw": 0.61
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100034
+    },
+    {
+      "episode_id": "00801_microwave_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-1.8, 1.0, -0.85],
+        "yaw": 1.45
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100035
+    },
+    {
+      "episode_id": "00801_wardrobe_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [1.19, 1.0, -1.78],
+        "yaw": 1.68
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100036
+    },
+    {
+      "episode_id": "00801_wardrobe_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [2.07, 1.0, -0.95],
+        "yaw": -1.57
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100037
+    },
+    {
+      "episode_id": "00801_toilet_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [0.99, 1.0, -2.92],
+        "yaw": 1.14
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100038
+    },
+    {
+      "episode_id": "00801_lamp_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [0.89, 1.0, -0.67],
+        "yaw": 0.99
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100039
+    },
+    {
+      "episode_id": "00801_tv_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [0.36, 1.0, -2.93],
+        "yaw": 1.52
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100040
+    },
+    {
+      "episode_id": "00801_trashcan_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [1.43, 1.0, 0.27],
+        "yaw": -2.29
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100041
+    },
+    {
+      "episode_id": "00801_armchair_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-0.89, 1.0, -1.27],
+        "yaw": -0.88
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100042
+    },
+    {
+      "episode_id": "00801_tv_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [1.29, 1.0, -0.67],
+        "yaw": -0.54
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100043
+    },
+    {
+      "episode_id": "00801_couch_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-2.99, 1.0, -1.85],
+        "yaw": -1.04
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100044
+    },
+    {
+      "episode_id": "00801_nightstand_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-1.66, 1.0, -0.31],
+        "yaw": 1.32
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100045
+    },
+    {
+      "episode_id": "00801_sink_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-2.81, 1.0, 2.23],
+        "yaw": 0.42
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100046
+    },
+    {
+      "episode_id": "00801_table_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [-2.01, 1.0, -2.62],
+        "yaw": 1.27
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100047
+    },
+    {
+      "episode_id": "00801_toilet_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [0.17, 1.0, -0.08],
+        "yaw": 0.39
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100048
+    },
+    {
+      "episode_id": "00801_chair_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00801-HaxA7YrQdEC/HaxA7YrQdEC.basis.glb",
+      "start_pose": {
+        "position": [2.3, 1.0, -0.03],
+        "yaw": -1.18
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100049
+    },
+    {
+      "episode_id": "00802_toilet_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.7, 1.0, 1.94],
+        "yaw": 2.98
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100050
+    },
+    {
+      "episode_id": "00802_sink_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-1.87, 1.0, 3.0],
+        "yaw": 0.84
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100051
+    },
+    {
+      "episode_id": "00802_couch_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [2.02, 1.0, -2.22],
+        "yaw": -3.05
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100052
+    },
+    {
+      "episode_id": "00802_sink_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-1.1, 1.0, -1.72],
+        "yaw": 1.36
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100053
+    },
+    {
+      "episode_id": "00802_chair_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [2.88, 1.0, 1.05],
+        "yaw": 0.7
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100054
+    },
+    {
+      "episode_id": "00802_cabinet_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.29, 1.0, 0.9],
+        "yaw": 2.35
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100055
+    },
+    {
+      "episode_id": "00802_plant_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [1.13, 1.0, -1.91],
+        "yaw": -0.15
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100056
+    },
+    {
+      "episode_id": "00802_microwave_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [0.77, 1.0, -2.87],
+        "yaw": 2.6
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100057
+    },
+    {
+      "episode_id": "00802_bed_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [2.17, 1.0, -2.2],
+        "yaw": 0.13
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100058
+    },
+    {
+      "episode_id": "00802_refrigerator_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.31, 1.0, -2.07],
+        "yaw": 2.21
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100059
+    },
+    {
+      "episode_id": "00802_table_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.76, 1.0, 1.09],
+        "yaw": 0.37
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100060
+    },
+    {
+      "episode_id": "00802_refrigerator_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [2.63, 1.0, 2.46],
+        "yaw": -2.88
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100061
+    },
+    {
+      "episode_id": "00802_armchair_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [1.27, 1.0, 2.42],
+        "yaw": 0.88
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100062
+    },
+    {
+      "episode_id": "00802_refrigerator_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [2.23, 1.0, -1.93],
+        "yaw": -0.78
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100063
+    },
+    {
+      "episode_id": "00802_lamp_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.95, 1.0, -2.09],
+        "yaw": -1.05
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100064
+    },
+    {
+      "episode_id": "00802_refrigerator_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [1.31, 1.0, -0.97],
+        "yaw": 0.76
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100065
+    },
+    {
+      "episode_id": "00802_table_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-1.38, 1.0, -2.1],
+        "yaw": 0.52
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100066
+    },
+    {
+      "episode_id": "00802_refrigerator_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-0.63, 1.0, 0.29],
+        "yaw": -1.3
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100067
+    },
+    {
+      "episode_id": "00802_armchair_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [1.38, 1.0, 2.6],
+        "yaw": -1.21
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100068
+    },
+    {
+      "episode_id": "00802_couch_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-1.18, 1.0, 2.01],
+        "yaw": -1.26
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100069
+    },
+    {
+      "episode_id": "00802_bed_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.4, 1.0, 2.45],
+        "yaw": -0.16
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100070
+    },
+    {
+      "episode_id": "00802_trashcan_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.25, 1.0, -2.3],
+        "yaw": -0.01
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100071
+    },
+    {
+      "episode_id": "00802_table_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-1.19, 1.0, 1.41],
+        "yaw": 2.48
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100072
+    },
+    {
+      "episode_id": "00802_wardrobe_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [0.76, 1.0, -0.75],
+        "yaw": 2.98
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100073
+    },
+    {
+      "episode_id": "00802_couch_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00802-wcojb4TFT35/wcojb4TFT35.basis.glb",
+      "start_pose": {
+        "position": [-2.6, 1.0, -2.49],
+        "yaw": 1.57
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100074
+    },
+    {
+      "episode_id": "00803_table_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-0.69, 1.0, -2.41],
+        "yaw": 0.35
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100075
+    },
+    {
+      "episode_id": "00803_lamp_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-0.31, 1.0, -0.07],
+        "yaw": 0.53
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100076
+    },
+    {
+      "episode_id": "00803_cabinet_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-0.46, 1.0, -0.79],
+        "yaw": 3.07
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100077
+    },
+    {
+      "episode_id": "00803_plant_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.51, 1.0, -2.0],
+        "yaw": -1.93
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100078
+    },
+    {
+      "episode_id": "00803_bed_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-2.62, 1.0, 2.18],
+        "yaw": 1.27
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100079
+    },
+    {
+      "episode_id": "00803_toilet_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [1.51, 1.0, -1.79],
+        "yaw": -0.02
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100080
+    },
+    {
+      "episode_id": "00803_plant_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-1.76, 1.0, -2.75],
+        "yaw": 2.81
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100081
+    },
+    {
+      "episode_id": "00803_cabinet_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.74, 1.0, -2.37],
+        "yaw": -0.26
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100082
+    },
+    {
+      "episode_id": "00803_refrigerator_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.28, 1.0, -2.09],
+        "yaw": 3.07
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100083
+    },
+    {
+      "episode_id": "00803_armchair_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-2.11, 1.0, -0.56],
+        "yaw": 1.13
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100084
+    },
+    {
+      "episode_id": "00803_armchair_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [1.08, 1.0, 2.33],
+        "yaw": 2.09
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100085
+    },
+    {
+      "episode_id": "00803_armchair_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.81, 1.0, 2.25],
+        "yaw": 0.27
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100086
+    },
+    {
+      "episode_id": "00803_nightstand_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-2.94, 1.0, 1.23],
+        "yaw": 1.55
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100087
+    },
+    {
+      "episode_id": "00803_trashcan_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [1.91, 1.0, -2.79],
+        "yaw": -2.21
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100088
+    },
+    {
+      "episode_id": "00803_plant_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.62, 1.0, -2.06],
+        "yaw": -0.76
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100089
+    },
+    {
+      "episode_id": "00803_lamp_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [1.31, 1.0, 1.84],
+        "yaw": -2.72
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100090
+    },
+    {
+      "episode_id": "00803_couch_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.1, 1.0, 2.49],
+        "yaw": -2.72
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100091
+    },
+    {
+      "episode_id": "00803_tv_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [-2.76, 1.0, -2.91],
+        "yaw": 2.16
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100092
+    },
+    {
+      "episode_id": "00803_trashcan_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [2.17, 1.0, 1.8],
+        "yaw": 2.32
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100093
+    },
+    {
+      "episode_id": "00803_toilet_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [2.81, 1.0, 0.03],
+        "yaw": 2.52
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100094
+    },
+    {
+      "episode_id": "00803_table_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.44, 1.0, 1.07],
+        "yaw": 1.92
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100095
+    },
+    {
+      "episode_id": "00803_couch_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [1.48, 1.0, 2.43],
+        "yaw": -1.85
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100096
+    },
+    {
+      "episode_id": "00803_sink_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [1.95, 1.0, -0.11],
+        "yaw": 1.83
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100097
+    },
+    {
+      "episode_id": "00803_microwave_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.64, 1.0, -1.6],
+        "yaw": 2.29
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100098
+    },
+    {
+      "episode_id": "00803_chair_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00803-k1cupFYWXJ6/k1cupFYWXJ6.basis.glb",
+      "start_pose": {
+        "position": [0.94, 1.0, -3.0],
+        "yaw": -2.0
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100099
+    },
+    {
+      "episode_id": "00804_plant_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-1.0, 1.0, -0.04],
+        "yaw": -1.49
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100100
+    },
+    {
+      "episode_id": "00804_lamp_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [1.63, 1.0, -0.7],
+        "yaw": -0.73
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100101
+    },
+    {
+      "episode_id": "00804_wardrobe_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [0.85, 1.0, -2.24],
+        "yaw": -1.34
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100102
+    },
+    {
+      "episode_id": "00804_trashcan_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-2.67, 1.0, -2.78],
+        "yaw": -0.52
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100103
+    },
+    {
+      "episode_id": "00804_armchair_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [2.34, 1.0, 0.61],
+        "yaw": -2.63
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100104
+    },
+    {
+      "episode_id": "00804_tv_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [1.86, 1.0, -0.88],
+        "yaw": -2.92
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100105
+    },
+    {
+      "episode_id": "00804_toilet_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-0.68, 1.0, -2.72],
+        "yaw": -0.18
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100106
+    },
+    {
+      "episode_id": "00804_tv_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-2.88, 1.0, 0.59],
+        "yaw": -2.31
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100107
+    },
+    {
+      "episode_id": "00804_trashcan_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-2.37, 1.0, 0.29],
+        "yaw": -0.96
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100108
+    },
+    {
+      "episode_id": "00804_microwave_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [1.7, 1.0, 1.66],
+        "yaw": -2.44
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100109
+    },
+    {
+      "episode_id": "00804_table_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [0.66, 1.0, -0.2],
+        "yaw": 0.83
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100110
+    },
+    {
+      "episode_id": "00804_trashcan_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [0.9, 1.0, 2.82],
+        "yaw": 1.34
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100111
+    },
+    {
+      "episode_id": "00804_lamp_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [1.73, 1.0, -2.24],
+        "yaw": 2.59
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100112
+    },
+    {
+      "episode_id": "00804_lamp_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [2.5, 1.0, 2.24],
+        "yaw": 1.14
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100113
+    },
+    {
+      "episode_id": "00804_bed_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [0.11, 1.0, 1.71],
+        "yaw": -1.95
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100114
+    },
+    {
+      "episode_id": "00804_microwave_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-0.33, 1.0, 1.54],
+        "yaw": -0.28
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100115
+    },
+    {
+      "episode_id": "00804_couch_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [2.74, 1.0, 2.41],
+        "yaw": -2.89
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100116
+    },
+    {
+      "episode_id": "00804_plant_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [2.41, 1.0, 2.67],
+        "yaw": 1.05
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100117
+    },
+    {
+      "episode_id": "00804_cabinet_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-1.62, 1.0, 1.66],
+        "yaw": 2.42
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100118
+    },
+    {
+      "episode_id": "00804_sink_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [0.04, 1.0, 2.67],
+        "yaw": -2.23
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100119
+    },
+    {
+      "episode_id": "00804_sink_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [2.54, 1.0, 2.61],
+        "yaw": -0.53
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100120
+    },
+    {
+      "episode_id": "00804_bed_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-0.51, 1.0, -2.06],
+        "yaw": 2.85
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100121
+    },
+    {
+      "episode_id": "00804_toilet_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [-0.41, 1.0, -0.5],
+        "yaw": -0.02
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100122
+    },
+    {
+      "episode_id": "00804_trashcan_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [1.34, 1.0, -2.53],
+        "yaw": -2.7
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100123
+    },
+    {
+      "episode_id": "00804_refrigerator_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00804-BHXhpBwSMLh/BHXhpBwSMLh.basis.glb",
+      "start_pose": {
+        "position": [1.15, 1.0, -0.93],
+        "yaw": -2.02
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100124
+    },
+    {
+      "episode_id": "00805_nightstand_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [1.91, 1.0, -2.58],
+        "yaw": 2.47
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100125
+    },
+    {
+      "episode_id": "00805_cabinet_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-2.98, 1.0, 0.95],
+        "yaw": 1.46
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100126
+    },
+    {
+      "episode_id": "00805_bed_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [1.49, 1.0, -1.24],
+        "yaw": 1.19
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100127
+    },
+    {
+      "episode_id": "00805_nightstand_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [2.16, 1.0, -1.88],
+        "yaw": -2.43
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100128
+    },
+    {
+      "episode_id": "00805_refrigerator_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [1.24, 1.0, -1.45],
+        "yaw": -2.96
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100129
+    },
+    {
+      "episode_id": "00805_cabinet_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-0.83, 1.0, -0.16],
+        "yaw": -1.3
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100130
+    },
+    {
+      "episode_id": "00805_trashcan_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-1.9, 1.0, 2.96],
+        "yaw": -2.5
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100131
+    },
+    {
+      "episode_id": "00805_lamp_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-2.06, 1.0, 2.39],
+        "yaw": 2.8
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100132
+    },
+    {
+      "episode_id": "00805_nightstand_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-1.1, 1.0, -1.54],
+        "yaw": 1.6
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100133
+    },
+    {
+      "episode_id": "00805_lamp_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-0.77, 1.0, 0.98],
+        "yaw": 2.27
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100134
+    },
+    {
+      "episode_id": "00805_chair_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-0.64, 1.0, 1.21],
+        "yaw": -2.31
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100135
+    },
+    {
+      "episode_id": "00805_lamp_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [0.3, 1.0, 1.45],
+        "yaw": -2.25
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100136
+    },
+    {
+      "episode_id": "00805_sink_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-1.21, 1.0, -0.87],
+        "yaw": -1.58
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100137
+    },
+    {
+      "episode_id": "00805_refrigerator_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [0.82, 1.0, 0.18],
+        "yaw": -0.78
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100138
+    },
+    {
+      "episode_id": "00805_chair_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-0.5, 1.0, 1.37],
+        "yaw": -1.13
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100139
+    },
+    {
+      "episode_id": "00805_cabinet_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-0.77, 1.0, 2.71],
+        "yaw": -2.57
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100140
+    },
+    {
+      "episode_id": "00805_wardrobe_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [1.78, 1.0, -1.34],
+        "yaw": 0.37
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100141
+    },
+    {
+      "episode_id": "00805_tv_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [1.77, 1.0, -0.32],
+        "yaw": -0.64
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100142
+    },
+    {
+      "episode_id": "00805_sink_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-0.41, 1.0, -1.51],
+        "yaw": -0.29
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100143
+    },
+    {
+      "episode_id": "00805_tv_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-0.87, 1.0, 0.79],
+        "yaw": -2.6
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100144
+    },
+    {
+      "episode_id": "00805_cabinet_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-1.23, 1.0, 1.98],
+        "yaw": -0.32
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100145
+    },
+    {
+      "episode_id": "00805_toilet_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-2.95, 1.0, -1.21],
+        "yaw": 1.69
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100146
+    },
+    {
+      "episode_id": "00805_lamp_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [0.27, 1.0, -2.06],
+        "yaw": 1.3
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100147
+    },
+    {
+      "episode_id": "00805_armchair_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-2.44, 1.0, -0.01],
+        "yaw": 2.89
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100148
+    },
+    {
+      "episode_id": "00805_microwave_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00805-SUHsP6z2gcJ/SUHsP6z2gcJ.basis.glb",
+      "start_pose": {
+        "position": [-1.32, 1.0, 2.9],
+        "yaw": -2.38
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100149
+    },
+    {
+      "episode_id": "00806_table_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-3.0, 1.0, -0.61],
+        "yaw": 2.45
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100150
+    },
+    {
+      "episode_id": "00806_microwave_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-0.33, 1.0, 1.48],
+        "yaw": -0.92
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100151
+    },
+    {
+      "episode_id": "00806_cabinet_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [0.57, 1.0, -2.79],
+        "yaw": 1.84
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100152
+    },
+    {
+      "episode_id": "00806_lamp_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [0.2, 1.0, -2.29],
+        "yaw": 2.26
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100153
+    },
+    {
+      "episode_id": "00806_wardrobe_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-2.59, 1.0, 2.17],
+        "yaw": -1.36
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100154
+    },
+    {
+      "episode_id": "00806_tv_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [0.44, 1.0, 0.76],
+        "yaw": 0.2
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100155
+    },
+    {
+      "episode_id": "00806_sink_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [2.73, 1.0, 0.26],
+        "yaw": 1.52
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100156
+    },
+    {
+      "episode_id": "00806_plant_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-1.25, 1.0, -0.77],
+        "yaw": 0.81
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100157
+    },
+    {
+      "episode_id": "00806_wardrobe_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-2.26, 1.0, -2.28],
+        "yaw": -0.62
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100158
+    },
+    {
+      "episode_id": "00806_toilet_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-2.16, 1.0, 1.01],
+        "yaw": -0.92
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100159
+    },
+    {
+      "episode_id": "00806_armchair_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [1.45, 1.0, -1.69],
+        "yaw": -0.07
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100160
+    },
+    {
+      "episode_id": "00806_trashcan_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-0.04, 1.0, 2.75],
+        "yaw": -0.35
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100161
+    },
+    {
+      "episode_id": "00806_tv_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [1.47, 1.0, -2.69],
+        "yaw": 0.76
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100162
+    },
+    {
+      "episode_id": "00806_chair_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-0.87, 1.0, -0.65],
+        "yaw": 3.1
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100163
+    },
+    {
+      "episode_id": "00806_couch_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [1.12, 1.0, -2.51],
+        "yaw": 2.82
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100164
+    },
+    {
+      "episode_id": "00806_microwave_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-2.96, 1.0, -2.75],
+        "yaw": 0.76
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100165
+    },
+    {
+      "episode_id": "00806_plant_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [2.24, 1.0, 1.2],
+        "yaw": 1.43
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100166
+    },
+    {
+      "episode_id": "00806_nightstand_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-2.16, 1.0, 0.44],
+        "yaw": -1.94
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100167
+    },
+    {
+      "episode_id": "00806_sink_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-0.23, 1.0, -1.02],
+        "yaw": -2.08
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100168
+    },
+    {
+      "episode_id": "00806_sink_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [0.89, 1.0, 1.12],
+        "yaw": -2.21
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100169
+    },
+    {
+      "episode_id": "00806_tv_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [0.14, 1.0, -2.22],
+        "yaw": 2.58
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100170
+    },
+    {
+      "episode_id": "00806_toilet_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-0.9, 1.0, 2.9],
+        "yaw": -0.46
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100171
+    },
+    {
+      "episode_id": "00806_armchair_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [-0.66, 1.0, -1.68],
+        "yaw": -1.91
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100172
+    },
+    {
+      "episode_id": "00806_cabinet_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [0.52, 1.0, -2.7],
+        "yaw": -0.7
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100173
+    },
+    {
+      "episode_id": "00806_nightstand_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00806-tQ5s4ShP627/tQ5s4ShP627.basis.glb",
+      "start_pose": {
+        "position": [0.8, 1.0, 2.23],
+        "yaw": -0.86
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100174
+    },
+    {
+      "episode_id": "00807_wardrobe_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-1.6, 1.0, -1.21],
+        "yaw": -2.6
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100175
+    },
+    {
+      "episode_id": "00807_lamp_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [1.63, 1.0, 2.3],
+        "yaw": -0.56
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100176
+    },
+    {
+      "episode_id": "00807_table_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [0.79, 1.0, 0.1],
+        "yaw": 2.87
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100177
+    },
+    {
+      "episode_id": "00807_sink_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [0.49, 1.0, -0.06],
+        "yaw": 1.28
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100178
+    },
+    {
+      "episode_id": "00807_cabinet_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-0.98, 1.0, -2.75],
+        "yaw": -2.81
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100179
+    },
+    {
+      "episode_id": "00807_refrigerator_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-2.98, 1.0, 0.93],
+        "yaw": -2.26
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100180
+    },
+    {
+      "episode_id": "00807_sink_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [1.08, 1.0, 2.82],
+        "yaw": -0.65
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100181
+    },
+    {
+      "episode_id": "00807_nightstand_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-0.28, 1.0, -0.96],
+        "yaw": -2.5
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100182
+    },
+    {
+      "episode_id": "00807_couch_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [1.77, 1.0, -1.06],
+        "yaw": -0.28
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100183
+    },
+    {
+      "episode_id": "00807_trashcan_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-1.47, 1.0, 0.13],
+        "yaw": -1.95
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100184
+    },
+    {
+      "episode_id": "00807_couch_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-1.74, 1.0, 0.15],
+        "yaw": -1.96
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100185
+    },
+    {
+      "episode_id": "00807_cabinet_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-1.49, 1.0, 1.37],
+        "yaw": -1.25
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100186
+    },
+    {
+      "episode_id": "00807_microwave_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-1.47, 1.0, -0.94],
+        "yaw": 1.33
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100187
+    },
+    {
+      "episode_id": "00807_table_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-1.17, 1.0, 0.31],
+        "yaw": -3.08
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100188
+    },
+    {
+      "episode_id": "00807_armchair_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [1.35, 1.0, -2.72],
+        "yaw": 1.94
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100189
+    },
+    {
+      "episode_id": "00807_armchair_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-0.24, 1.0, -2.29],
+        "yaw": -2.63
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100190
+    },
+    {
+      "episode_id": "00807_bed_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [1.96, 1.0, -2.08],
+        "yaw": 2.41
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100191
+    },
+    {
+      "episode_id": "00807_cabinet_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-0.36, 1.0, -2.54],
+        "yaw": -0.46
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100192
+    },
+    {
+      "episode_id": "00807_microwave_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-2.76, 1.0, -1.92],
+        "yaw": -0.06
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100193
+    },
+    {
+      "episode_id": "00807_tv_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [2.04, 1.0, -1.33],
+        "yaw": -0.93
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100194
+    },
+    {
+      "episode_id": "00807_sink_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-2.36, 1.0, 2.4],
+        "yaw": 0.69
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100195
+    },
+    {
+      "episode_id": "00807_cabinet_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [1.27, 1.0, 1.66],
+        "yaw": 0.09
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100196
+    },
+    {
+      "episode_id": "00807_toilet_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [0.22, 1.0, -1.43],
+        "yaw": -1.68
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100197
+    },
+    {
+      "episode_id": "00807_bed_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [0.69, 1.0, 1.27],
+        "yaw": -2.06
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100198
+    },
+    {
+      "episode_id": "00807_sink_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00807-rsggHU7g7dh/rsggHU7g7dh.basis.glb",
+      "start_pose": {
+        "position": [-1.51, 1.0, -1.29],
+        "yaw": 1.48
+      },
+      "goal": {
+        "object_category": "sink"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100199
+    },
+    {
+      "episode_id": "00808_chair_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [1.45, 1.0, 0.09],
+        "yaw": 2.26
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100200
+    },
+    {
+      "episode_id": "00808_bed_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.69, 1.0, -1.37],
+        "yaw": 2.96
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100201
+    },
+    {
+      "episode_id": "00808_refrigerator_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-1.62, 1.0, 1.3],
+        "yaw": 0.29
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100202
+    },
+    {
+      "episode_id": "00808_lamp_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-1.67, 1.0, 1.99],
+        "yaw": -1.63
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100203
+    },
+    {
+      "episode_id": "00808_lamp_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [1.05, 1.0, -1.6],
+        "yaw": 0.81
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100204
+    },
+    {
+      "episode_id": "00808_lamp_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [0.49, 1.0, -2.18],
+        "yaw": -3.04
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100205
+    },
+    {
+      "episode_id": "00808_trashcan_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.8, 1.0, 0.81],
+        "yaw": 1.96
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100206
+    },
+    {
+      "episode_id": "00808_microwave_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-2.07, 1.0, -1.94],
+        "yaw": 3.08
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100207
+    },
+    {
+      "episode_id": "00808_tv_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [1.59, 1.0, 1.69],
+        "yaw": 1.73
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100208
+    },
+    {
+      "episode_id": "00808_cabinet_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-1.59, 1.0, -2.21],
+        "yaw": -1.67
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100209
+    },
+    {
+      "episode_id": "00808_microwave_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.88, 1.0, 0.55],
+        "yaw": 0.81
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100210
+    },
+    {
+      "episode_id": "00808_bed_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [0.7, 1.0, -2.84],
+        "yaw": 0.6
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100211
+    },
+    {
+      "episode_id": "00808_armchair_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.27, 1.0, -2.92],
+        "yaw": -1.76
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100212
+    },
+    {
+      "episode_id": "00808_wardrobe_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [0.97, 1.0, -0.03],
+        "yaw": 2.85
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100213
+    },
+    {
+      "episode_id": "00808_armchair_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [0.28, 1.0, 1.23],
+        "yaw": -2.65
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100214
+    },
+    {
+      "episode_id": "00808_tv_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [0.63, 1.0, 1.22],
+        "yaw": 2.02
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100215
+    },
+    {
+      "episode_id": "00808_lamp_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.7, 1.0, -2.64],
+        "yaw": -2.9
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100216
+    },
+    {
+      "episode_id": "00808_nightstand_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.94, 1.0, -0.35],
+        "yaw": 1.42
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100217
+    },
+    {
+      "episode_id": "00808_nightstand_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-1.44, 1.0, 1.03],
+        "yaw": -1.23
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100218
+    },
+    {
+      "episode_id": "00808_refrigerator_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [0.44, 1.0, -2.65],
+        "yaw": 0.82
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100219
+    },
+    {
+      "episode_id": "00808_refrigerator_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-2.87, 1.0, 0.77],
+        "yaw": -2.99
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100220
+    },
+    {
+      "episode_id": "00808_table_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-2.93, 1.0, 2.67],
+        "yaw": -1.09
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100221
+    },
+    {
+      "episode_id": "00808_table_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.93, 1.0, 0.98],
+        "yaw": -2.29
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100222
+    },
+    {
+      "episode_id": "00808_cabinet_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [-0.31, 1.0, -2.15],
+        "yaw": -1.18
+      },
+      "goal": {
+        "object_category": "cabinet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100223
+    },
+    {
+      "episode_id": "00808_trashcan_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb",
+      "start_pose": {
+        "position": [1.37, 1.0, 1.71],
+        "yaw": -0.57
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100224
+    },
+    {
+      "episode_id": "00809_chair_000",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-0.54, 1.0, -1.42],
+        "yaw": 0.2
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100225
+    },
+    {
+      "episode_id": "00809_toilet_001",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [1.55, 1.0, 0.39],
+        "yaw": -2.37
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100226
+    },
+    {
+      "episode_id": "00809_microwave_002",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-1.97, 1.0, 0.0],
+        "yaw": 0.77
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100227
+    },
+    {
+      "episode_id": "00809_tv_003",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-2.52, 1.0, -1.58],
+        "yaw": 2.06
+      },
+      "goal": {
+        "object_category": "tv"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100228
+    },
+    {
+      "episode_id": "00809_wardrobe_004",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-1.52, 1.0, -2.87],
+        "yaw": 1.92
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100229
+    },
+    {
+      "episode_id": "00809_wardrobe_005",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [1.46, 1.0, 2.03],
+        "yaw": 0.39
+      },
+      "goal": {
+        "object_category": "wardrobe"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100230
+    },
+    {
+      "episode_id": "00809_couch_006",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-0.44, 1.0, 2.19],
+        "yaw": -2.49
+      },
+      "goal": {
+        "object_category": "couch"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100231
+    },
+    {
+      "episode_id": "00809_toilet_007",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [1.26, 1.0, 0.69],
+        "yaw": -2.89
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100232
+    },
+    {
+      "episode_id": "00809_trashcan_008",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [1.84, 1.0, 1.4],
+        "yaw": -2.97
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100233
+    },
+    {
+      "episode_id": "00809_table_009",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-0.02, 1.0, -0.85],
+        "yaw": 1.08
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100234
+    },
+    {
+      "episode_id": "00809_toilet_010",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-1.58, 1.0, -0.87],
+        "yaw": 1.48
+      },
+      "goal": {
+        "object_category": "toilet"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100235
+    },
+    {
+      "episode_id": "00809_microwave_011",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-0.97, 1.0, 1.82],
+        "yaw": 2.79
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100236
+    },
+    {
+      "episode_id": "00809_chair_012",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-1.14, 1.0, 2.4],
+        "yaw": 0.32
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100237
+    },
+    {
+      "episode_id": "00809_table_013",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [1.64, 1.0, 0.42],
+        "yaw": -1.49
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100238
+    },
+    {
+      "episode_id": "00809_table_014",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-0.26, 1.0, 1.33],
+        "yaw": -0.6
+      },
+      "goal": {
+        "object_category": "table"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100239
+    },
+    {
+      "episode_id": "00809_armchair_015",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-2.69, 1.0, -1.36],
+        "yaw": 3.11
+      },
+      "goal": {
+        "object_category": "armchair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100240
+    },
+    {
+      "episode_id": "00809_plant_016",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [1.08, 1.0, 0.49],
+        "yaw": 1.73
+      },
+      "goal": {
+        "object_category": "plant"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100241
+    },
+    {
+      "episode_id": "00809_lamp_017",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [2.97, 1.0, 1.57],
+        "yaw": 1.65
+      },
+      "goal": {
+        "object_category": "lamp"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100242
+    },
+    {
+      "episode_id": "00809_trashcan_018",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-0.68, 1.0, 2.01],
+        "yaw": -1.57
+      },
+      "goal": {
+        "object_category": "trashcan"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100243
+    },
+    {
+      "episode_id": "00809_bed_019",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [0.4, 1.0, -1.02],
+        "yaw": 2.94
+      },
+      "goal": {
+        "object_category": "bed"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100244
+    },
+    {
+      "episode_id": "00809_nightstand_020",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [0.52, 1.0, 1.32],
+        "yaw": 1.14
+      },
+      "goal": {
+        "object_category": "nightstand"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100245
+    },
+    {
+      "episode_id": "00809_refrigerator_021",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-2.02, 1.0, 2.21],
+        "yaw": -2.18
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100246
+    },
+    {
+      "episode_id": "00809_chair_022",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [0.51, 1.0, -2.69],
+        "yaw": -2.16
+      },
+      "goal": {
+        "object_category": "chair"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100247
+    },
+    {
+      "episode_id": "00809_refrigerator_023",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [-0.82, 1.0, 0.75],
+        "yaw": -1.11
+      },
+      "goal": {
+        "object_category": "refrigerator"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100248
+    },
+    {
+      "episode_id": "00809_microwave_024",
+      "scene_path": "projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+      "start_pose": {
+        "position": [0.6, 1.0, 2.92],
+        "yaw": -3.13
+      },
+      "goal": {
+        "object_category": "microwave"
+      },
+      "success_radius": 1.0,
+      "max_steps": 500,
+      "seed": 100249
+    }
+  ]
+}

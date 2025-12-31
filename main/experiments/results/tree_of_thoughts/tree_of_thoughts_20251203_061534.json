@@ -1,0 +1,13 @@
+{
+  "reasoning_cycle_id": "test_1764742514",
+  "timestamp": 1764742534.5460463,
+  "generation_time_seconds": 0,
+  "mission": "find my keys in living room",
+  "stores_used": {
+    "map_store": true,
+    "prediction_store": true,
+    "task_store": true,
+    "user_command_store": true
+  },
+  "task_store_data": {}
+}

@@ -1,0 +1,2570 @@
+{
+  "metadata": {
+    "scene_path": "/mnt/d/Coding/Business/Kulfi_Startup_Code/robotics_workspace/projects/hybrid_zero_shot_slam_nav/main/datasets/00809-Qpor2mEya8F/Qpor2mEya8F.basis.glb",
+    "timestamp": "2025-12-11 02:48:04",
+    "scanner_version": "smooth_kinematic_1.0",
+    "frame_save_dir": "scene_scan_debug_frames",
+    "total_frames_saved": 140,
+    "motion_type": "smooth_kinematic",
+    "control_frequency": 10.0,
+    "max_linear_speed": 0.25,
+    "slam_trajectory": {
+      "total_frames": 1314,
+      "total_poses": 1314,
+      "object_detections_in_trajectory": 184,
+      "frames_sample_indices": [
+        0,
+        131,
+        262,
+        393,
+        524,
+        655,
+        786,
+        917,
+        1048,
+        1179,
+        1310
+      ]
+    }
+  },
+  "objects": [
+    {
+      "type": "bed",
+      "position": [
+        0.25133296847343445,
+        -2.8990561962127686,
+        -0.03260350972414017
+      ],
+      "confidence": 0.85,
+      "detection_step": 0,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 0
+    },
+    {
+      "type": "pillow",
+      "position": [
+        0.34225034713745117,
+        -2.8990561962127686,
+        -0.042821384966373444
+      ],
+      "confidence": 0.85,
+      "detection_step": 7,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 7
+    },
+    {
+      "type": "mirror",
+      "position": [
+        0.34225034713745117,
+        -2.8990561962127686,
+        -0.042821384966373444
+      ],
+      "confidence": 0.85,
+      "detection_step": 7,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 7
+    },
+    {
+      "type": "door",
+      "position": [
+        0.34225034713745117,
+        -2.8990561962127686,
+        -0.042821384966373444
+      ],
+      "confidence": 0.85,
+      "detection_step": 7,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 7
+    },
+    {
+      "type": "picture",
+      "position": [
+        0.4851204752922058,
+        -2.8990561962127686,
+        -0.05887804180383682
+      ],
+      "confidence": 0.85,
+      "detection_step": 18,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 18
+    },
+    {
+      "type": "rug",
+      "position": [
+        0.5760378241539001,
+        -2.8990561962127686,
+        -0.0690959170460701
+      ],
+      "confidence": 0.85,
+      "detection_step": 25,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 25
+    },
+    {
+      "type": "bed",
+      "position": [
+        0.7578725814819336,
+        -2.8990561962127686,
+        -0.08953166007995605
+      ],
+      "confidence": 0.85,
+      "detection_step": 39,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 39
+    },
+    {
+      "type": "pillow",
+      "position": [
+        0.8487899303436279,
+        -2.8990561962127686,
+        -0.09974953532218933
+      ],
+      "confidence": 0.85,
+      "detection_step": 46,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 46
+    },
+    {
+      "type": "mirror",
+      "position": [
+        0.8487899303436279,
+        -2.8990561962127686,
+        -0.09974953532218933
+      ],
+      "confidence": 0.85,
+      "detection_step": 46,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 46
+    },
+    {
+      "type": "door",
+      "position": [
+        0.8487899303436279,
+        -2.8990561962127686,
+        -0.09974953532218933
+      ],
+      "confidence": 0.85,
+      "detection_step": 46,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 46
+    },
+    {
+      "type": "bed",
+      "position": [
+        1.7102956771850586,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 112,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 112
+    },
+    {
+      "type": "door",
+      "position": [
+        1.7233996391296387,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 113,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 113
+    },
+    {
+      "type": "pillow",
+      "position": [
+        1.8151277303695679,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 120,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 120
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        1.8151277303695679,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 120,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 120
+    },
+    {
+      "type": "table",
+      "position": [
+        1.9068557024002075,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 127,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 127
+    },
+    {
+      "type": "chair",
+      "position": [
+        1.9068557024002075,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 127,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 127
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        1.9068557024002075,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 127,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 127
+    },
+    {
+      "type": "mirror",
+      "position": [
+        1.9330637454986572,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 129,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 129
+    },
+    {
+      "type": "picture",
+      "position": [
+        1.972375750541687,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 132,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 132
+    },
+    {
+      "type": "desk",
+      "position": [
+        1.972375750541687,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 132,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 132
+    },
+    {
+      "type": "sofa",
+      "position": [
+        2.0772078037261963,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 140,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 140
+    },
+    {
+      "type": "plant",
+      "position": [
+        2.168935775756836,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      "confidence": 0.85,
+      "detection_step": 147,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 147
+    },
+    {
+      "type": "bed",
+      "position": [
+        2.223090887069702,
+        -2.8990561962127686,
+        -0.23697972297668457
+      ],
+      "confidence": 0.85,
+      "detection_step": 151,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 151
+    },
+    {
+      "type": "door",
+      "position": [
+        2.23793363571167,
+        -2.8990561962127686,
+        -0.2383122444152832
+      ],
+      "confidence": 0.85,
+      "detection_step": 152,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 152
+    },
+    {
+      "type": "rug",
+      "position": [
+        2.312148094177246,
+        -2.8990561962127686,
+        -0.24497488141059875
+      ],
+      "confidence": 0.85,
+      "detection_step": 157,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 157
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        2.326991081237793,
+        -2.8990561962127686,
+        -0.2463074028491974
+      ],
+      "confidence": 0.85,
+      "detection_step": 158,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 158
+    },
+    {
+      "type": "vase",
+      "position": [
+        2.326991081237793,
+        -2.8990561962127686,
+        -0.2463074028491974
+      ],
+      "confidence": 0.85,
+      "detection_step": 158,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 158
+    },
+    {
+      "type": "pillow",
+      "position": [
+        2.326991081237793,
+        -2.8990561962127686,
+        -0.2463074028491974
+      ],
+      "confidence": 0.85,
+      "detection_step": 158,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 158
+    },
+    {
+      "type": "table",
+      "position": [
+        2.416048526763916,
+        -2.8990561962127686,
+        -0.2543025612831116
+      ],
+      "confidence": 0.85,
+      "detection_step": 164,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 164
+    },
+    {
+      "type": "chair",
+      "position": [
+        2.416048526763916,
+        -2.8990561962127686,
+        -0.2543025612831116
+      ],
+      "confidence": 0.85,
+      "detection_step": 164,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 164
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        2.4457342624664307,
+        -2.8990561962127686,
+        -0.25696760416030884
+      ],
+      "confidence": 0.85,
+      "detection_step": 166,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 166
+    },
+    {
+      "type": "mirror",
+      "position": [
+        2.4605772495269775,
+        -2.8990561962127686,
+        -0.25830012559890747
+      ],
+      "confidence": 0.85,
+      "detection_step": 167,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 167
+    },
+    {
+      "type": "picture",
+      "position": [
+        2.490262985229492,
+        -2.8990561962127686,
+        -0.26096516847610474
+      ],
+      "confidence": 0.85,
+      "detection_step": 169,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 169
+    },
+    {
+      "type": "desk",
+      "position": [
+        2.505105972290039,
+        -2.8990561962127686,
+        -0.26229768991470337
+      ],
+      "confidence": 0.85,
+      "detection_step": 170,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 170
+    },
+    {
+      "type": "sofa",
+      "position": [
+        2.6683778762817383,
+        -2.8990561962127686,
+        -0.2769554853439331
+      ],
+      "confidence": 0.85,
+      "detection_step": 181,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 181
+    },
+    {
+      "type": "plant",
+      "position": [
+        2.6683778762817383,
+        -2.8990561962127686,
+        -0.2769554853439331
+      ],
+      "confidence": 0.85,
+      "detection_step": 181,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 181
+    },
+    {
+      "type": "bed",
+      "position": [
+        2.7277493476867676,
+        -2.8990561962127686,
+        -0.28228557109832764
+      ],
+      "confidence": 0.85,
+      "detection_step": 185,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 185
+    },
+    {
+      "type": "door",
+      "position": [
+        2.7425923347473145,
+        -2.8990561962127686,
+        -0.28361809253692627
+      ],
+      "confidence": 0.85,
+      "detection_step": 186,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 186
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        2.8316497802734375,
+        -2.8990561962127686,
+        -0.29161325097084045
+      ],
+      "confidence": 0.85,
+      "detection_step": 192,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 192
+    },
+    {
+      "type": "pillow",
+      "position": [
+        2.8316497802734375,
+        -2.8990561962127686,
+        -0.29161325097084045
+      ],
+      "confidence": 0.85,
+      "detection_step": 192,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 192
+    },
+    {
+      "type": "rug",
+      "position": [
+        2.8316497802734375,
+        -2.8990561962127686,
+        -0.29161325097084045
+      ],
+      "confidence": 0.85,
+      "detection_step": 192,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 192
+    },
+    {
+      "type": "vase",
+      "position": [
+        2.9058642387390137,
+        -2.8990561962127686,
+        -0.2982758581638336
+      ],
+      "confidence": 0.85,
+      "detection_step": 197,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 197
+    },
+    {
+      "type": "table",
+      "position": [
+        2.9207072257995605,
+        -2.8990561962127686,
+        -0.29960840940475464
+      ],
+      "confidence": 0.85,
+      "detection_step": 198,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 198
+    },
+    {
+      "type": "chair",
+      "position": [
+        2.9207072257995605,
+        -2.8990561962127686,
+        -0.29960840940475464
+      ],
+      "confidence": 0.85,
+      "detection_step": 198,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 198
+    },
+    {
+      "type": "picture",
+      "position": [
+        3.1285078525543213,
+        -2.8990561962127686,
+        -0.3182637393474579
+      ],
+      "confidence": 0.85,
+      "detection_step": 212,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 212
+    },
+    {
+      "type": "desk",
+      "position": [
+        3.1285078525543213,
+        -2.8990561962127686,
+        -0.3182637393474579
+      ],
+      "confidence": 0.85,
+      "detection_step": 212,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 212
+    },
+    {
+      "type": "lamp",
+      "position": [
+        3.2027223110198975,
+        -2.892834186553955,
+        -0.32492637634277344
+      ],
+      "confidence": 0.85,
+      "detection_step": 12,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 12
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        3.2027223110198975,
+        -2.892834186553955,
+        -0.32492637634277344
+      ],
+      "confidence": 0.85,
+      "detection_step": 12,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 12
+    },
+    {
+      "type": "plant",
+      "position": [
+        3.2027223110198975,
+        -2.892834186553955,
+        -0.32492637634277344
+      ],
+      "confidence": 0.85,
+      "detection_step": 12,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 12
+    },
+    {
+      "type": "window",
+      "position": [
+        3.2027223110198975,
+        -2.892834186553955,
+        -0.32492637634277344
+      ],
+      "confidence": 0.85,
+      "detection_step": 12,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 12
+    },
+    {
+      "type": "bed",
+      "position": [
+        3.2375974655151367,
+        -2.8846850395202637,
+        -0.32805728912353516
+      ],
+      "confidence": 0.85,
+      "detection_step": 219,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 219
+    },
+    {
+      "type": "door",
+      "position": [
+        3.255034923553467,
+        -2.880610466003418,
+        -0.3296227753162384
+      ],
+      "confidence": 0.85,
+      "detection_step": 220,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 220
+    },
+    {
+      "type": "chair",
+      "position": [
+        3.5165984630584717,
+        -2.8555023670196533,
+        -0.35310468077659607
+      ],
+      "confidence": 0.85,
+      "detection_step": 235,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 235
+    },
+    {
+      "type": "pillow",
+      "position": [
+        3.5165984630584717,
+        -2.8555023670196533,
+        -0.35310468077659607
+      ],
+      "confidence": 0.85,
+      "detection_step": 235,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 235
+    },
+    {
+      "type": "table",
+      "position": [
+        3.6037864685058594,
+        -2.850374221801758,
+        -0.36093199253082275
+      ],
+      "confidence": 0.85,
+      "detection_step": 240,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 240
+    },
+    {
+      "type": "picture",
+      "position": [
+        3.6560990810394287,
+        -2.847297430038452,
+        -0.3656283915042877
+      ],
+      "confidence": 0.85,
+      "detection_step": 243,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 243
+    },
+    {
+      "type": "bed",
+      "position": [
+        3.7432868480682373,
+        -2.8421692848205566,
+        -0.373455673456192
+      ],
+      "confidence": 0.85,
+      "detection_step": 248,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 248
+    },
+    {
+      "type": "desk",
+      "position": [
+        3.7432868480682373,
+        -2.8421692848205566,
+        -0.373455673456192
+      ],
+      "confidence": 0.85,
+      "detection_step": 248,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 248
+    },
+    {
+      "type": "door",
+      "position": [
+        3.7955996990203857,
+        -2.839092493057251,
+        -0.378152072429657
+      ],
+      "confidence": 0.85,
+      "detection_step": 251,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 251
+    },
+    {
+      "type": "chair",
+      "position": [
+        4.0397257804870605,
+        -2.8247337341308594,
+        -0.4000685214996338
+      ],
+      "confidence": 0.85,
+      "detection_step": 265,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 265
+    },
+    {
+      "type": "pillow",
+      "position": [
+        4.0397257804870605,
+        -2.8247337341308594,
+        -0.4000685214996338
+      ],
+      "confidence": 0.85,
+      "detection_step": 265,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 265
+    },
+    {
+      "type": "mirror",
+      "position": [
+        3.9918198585510254,
+        -2.8134796619415283,
+        -0.49484172463417053
+      ],
+      "confidence": 0.85,
+      "detection_step": 282,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 282
+    },
+    {
+      "type": "rug",
+      "position": [
+        3.351682186126709,
+        -2.8412435054779053,
+        -0.7469793558120728
+      ],
+      "confidence": 0.85,
+      "detection_step": 307,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 307
+    },
+    {
+      "type": "table",
+      "position": [
+        3.2748656272888184,
+        -2.8576672077178955,
+        -0.7772358655929565
+      ],
+      "confidence": 0.85,
+      "detection_step": 22,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 22
+    },
+    {
+      "type": "sofa",
+      "position": [
+        3.48473858833313,
+        -2.8183372020721436,
+        -0.5978385210037231
+      ],
+      "confidence": 0.85,
+      "detection_step": 321,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 321
+    },
+    {
+      "type": "sofa",
+      "position": [
+        4.018960475921631,
+        -2.862459897994995,
+        -0.14119072258472443
+      ],
+      "confidence": 0.85,
+      "detection_step": 26,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 26
+    },
+    {
+      "type": "lamp",
+      "position": [
+        4.018960475921631,
+        -2.862459897994995,
+        -0.14119072258472443
+      ],
+      "confidence": 0.85,
+      "detection_step": 27,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 27
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        4.018960475921631,
+        -2.862459897994995,
+        -0.14119072258472443
+      ],
+      "confidence": 0.85,
+      "detection_step": 27,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 27
+    },
+    {
+      "type": "plant",
+      "position": [
+        4.018960475921631,
+        -2.862459897994995,
+        -0.14119072258472443
+      ],
+      "confidence": 0.85,
+      "detection_step": 27,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 27
+    },
+    {
+      "type": "window",
+      "position": [
+        4.018960475921631,
+        -2.862459897994995,
+        -0.14119072258472443
+      ],
+      "confidence": 0.85,
+      "detection_step": 27,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 27
+    },
+    {
+      "type": "rug",
+      "position": [
+        3.944291353225708,
+        -2.862210273742676,
+        -0.16716594994068146
+      ],
+      "confidence": 0.85,
+      "detection_step": 352,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 352
+    },
+    {
+      "type": "vase",
+      "position": [
+        3.496276617050171,
+        -2.8607118129730225,
+        -0.32301729917526245
+      ],
+      "confidence": 0.85,
+      "detection_step": 370,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 370
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        3.241610288619995,
+        -2.7947840690612793,
+        0.020760685205459595
+      ],
+      "confidence": 0.85,
+      "detection_step": 405,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 405
+    },
+    {
+      "type": "table",
+      "position": [
+        3.241610288619995,
+        -2.727091073989868,
+        0.1223001480102539
+      ],
+      "confidence": 0.85,
+      "detection_step": 409,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 409
+    },
+    {
+      "type": "chair",
+      "position": [
+        3.241610288619995,
+        -2.727091073989868,
+        0.1223001480102539
+      ],
+      "confidence": 0.85,
+      "detection_step": 409,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 409
+    },
+    {
+      "type": "pillow",
+      "position": [
+        3.241610288619995,
+        -2.727091073989868,
+        0.1223001480102539
+      ],
+      "confidence": 0.85,
+      "detection_step": 409,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 409
+    },
+    {
+      "type": "rug",
+      "position": [
+        3.241610288619995,
+        -2.727091073989868,
+        0.1223001480102539
+      ],
+      "confidence": 0.85,
+      "detection_step": 409,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 409
+    },
+    {
+      "type": "door",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 411,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 411
+    },
+    {
+      "type": "bed",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 411,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 411
+    },
+    {
+      "type": "vase",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 37,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 37
+    },
+    {
+      "type": "lamp",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 37,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 37
+    },
+    {
+      "type": "clock",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 37,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 37
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 37,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 37
+    },
+    {
+      "type": "picture",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 37,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 37
+    },
+    {
+      "type": "plant",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 37,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 37
+    },
+    {
+      "type": "window",
+      "position": [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      "confidence": 0.85,
+      "detection_step": 37,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 37
+    },
+    {
+      "type": "sofa",
+      "position": [
+        3.310840606689453,
+        -2.73966908454895,
+        0.1380481868982315
+      ],
+      "confidence": 0.85,
+      "detection_step": 426,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 426
+    },
+    {
+      "type": "table",
+      "position": [
+        4.176219940185547,
+        -2.8481760025024414,
+        -0.19075462222099304
+      ],
+      "confidence": 0.85,
+      "detection_step": 42,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 42
+    },
+    {
+      "type": "vase",
+      "position": [
+        4.176219940185547,
+        -2.8481760025024414,
+        -0.19075462222099304
+      ],
+      "confidence": 0.85,
+      "detection_step": 42,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 42
+    },
+    {
+      "type": "picture",
+      "position": [
+        4.176219940185547,
+        -2.8481760025024414,
+        -0.19075462222099304
+      ],
+      "confidence": 0.85,
+      "detection_step": 42,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 42
+    },
+    {
+      "type": "door",
+      "position": [
+        5.155725479125977,
+        -2.827126979827881,
+        -0.14640925824642181
+      ],
+      "confidence": 0.85,
+      "detection_step": 46,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 46
+    },
+    {
+      "type": "plant",
+      "position": [
+        5.937318801879883,
+        -2.8990561962127686,
+        0.47200292348861694
+      ],
+      "confidence": 0.85,
+      "detection_step": 52,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 52
+    },
+    {
+      "type": "door",
+      "position": [
+        5.933122158050537,
+        -2.8990561962127686,
+        0.4098072946071625
+      ],
+      "confidence": 0.85,
+      "detection_step": 529,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 529
+    },
+    {
+      "type": "pillow",
+      "position": [
+        5.876047134399414,
+        -2.8990561962127686,
+        -0.43605339527130127
+      ],
+      "confidence": 0.85,
+      "detection_step": 56,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 56
+    },
+    {
+      "type": "bed",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 61,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 61
+    },
+    {
+      "type": "chair",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 61,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 61
+    },
+    {
+      "type": "pillow",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 61,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 61
+    },
+    {
+      "type": "picture",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 61,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 61
+    },
+    {
+      "type": "rug",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 61,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 61
+    },
+    {
+      "type": "table",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 62,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 62
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 62,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 62
+    },
+    {
+      "type": "plant",
+      "position": [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      "confidence": 0.85,
+      "detection_step": 62,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 62
+    },
+    {
+      "type": "table",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "vase",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "door",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "lamp",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "bed",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "chair",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "sofa",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "picture",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "rug",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "plant",
+      "position": [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      "confidence": 0.85,
+      "detection_step": 66,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 66
+    },
+    {
+      "type": "pillow",
+      "position": [
+        5.6104960441589355,
+        -2.8990561962127686,
+        0.03060734085738659
+      ],
+      "confidence": 0.85,
+      "detection_step": 76,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 76
+    },
+    {
+      "type": "table",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "vase",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "door",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "bed",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "chair",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "sofa",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "pillow",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "picture",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "rug",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 81,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 81
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 82,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 82
+    },
+    {
+      "type": "lamp",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 82,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 82
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 82,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 82
+    },
+    {
+      "type": "plant",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 82,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 82
+    },
+    {
+      "type": "window",
+      "position": [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      "confidence": 0.85,
+      "detection_step": 82,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 82
+    },
+    {
+      "type": "pillow",
+      "position": [
+        4.749113082885742,
+        -2.721418857574463,
+        -1.0752973556518555
+      ],
+      "confidence": 0.85,
+      "detection_step": 817,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 817
+    },
+    {
+      "type": "door",
+      "position": [
+        4.598382949829102,
+        -2.717365026473999,
+        -1.1193649768829346
+      ],
+      "confidence": 0.85,
+      "detection_step": 824,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 824
+    },
+    {
+      "type": "bed",
+      "position": [
+        4.598382949829102,
+        -2.717365026473999,
+        -1.1193649768829346
+      ],
+      "confidence": 0.85,
+      "detection_step": 824,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 824
+    },
+    {
+      "type": "sofa",
+      "position": [
+        4.53378438949585,
+        -2.715627670288086,
+        -1.1382510662078857
+      ],
+      "confidence": 0.85,
+      "detection_step": 827,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 827
+    },
+    {
+      "type": "chair",
+      "position": [
+        4.469185829162598,
+        -2.7133142948150635,
+        -1.1571372747421265
+      ],
+      "confidence": 0.85,
+      "detection_step": 830,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 830
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        4.447652816772461,
+        -2.712186336517334,
+        -1.1634325981140137
+      ],
+      "confidence": 0.85,
+      "detection_step": 86,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 86
+    },
+    {
+      "type": "picture",
+      "position": [
+        4.447652816772461,
+        -2.712186336517334,
+        -1.1634325981140137
+      ],
+      "confidence": 0.85,
+      "detection_step": 86,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 86
+    },
+    {
+      "type": "desk",
+      "position": [
+        4.447652816772461,
+        -2.712186336517334,
+        -1.1634325981140137
+      ],
+      "confidence": 0.85,
+      "detection_step": 86,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 86
+    },
+    {
+      "type": "rug",
+      "position": [
+        4.447652816772461,
+        -2.712186336517334,
+        -1.1634325981140137
+      ],
+      "confidence": 0.85,
+      "detection_step": 86,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 86
+    },
+    {
+      "type": "table",
+      "position": [
+        4.469994068145752,
+        -2.712836980819702,
+        -1.1617846488952637
+      ],
+      "confidence": 0.85,
+      "detection_step": 832,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 832
+    },
+    {
+      "type": "door",
+      "position": [
+        5.4224443435668945,
+        -2.537388324737549,
+        -1.868566632270813
+      ],
+      "confidence": 0.85,
+      "detection_step": 911,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 911
+    },
+    {
+      "type": "door",
+      "position": [
+        4.534404754638672,
+        -2.6990561485290527,
+        -1.6506731510162354
+      ],
+      "confidence": 0.85,
+      "detection_step": 937,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 937
+    },
+    {
+      "type": "bed",
+      "position": [
+        4.534404754638672,
+        -2.6990561485290527,
+        -1.6506731510162354
+      ],
+      "confidence": 0.85,
+      "detection_step": 937,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 937
+    },
+    {
+      "type": "pillow",
+      "position": [
+        4.534404754638672,
+        -2.6990561485290527,
+        -1.6506731510162354
+      ],
+      "confidence": 0.85,
+      "detection_step": 937,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 937
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        4.534404754638672,
+        -2.6990561485290527,
+        -1.6506731510162354
+      ],
+      "confidence": 0.85,
+      "detection_step": 937,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 937
+    },
+    {
+      "type": "vase",
+      "position": [
+        4.504164695739746,
+        -2.6990561485290527,
+        -1.641174077987671
+      ],
+      "confidence": 0.85,
+      "detection_step": 102,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 102
+    },
+    {
+      "type": "clock",
+      "position": [
+        4.504164695739746,
+        -2.6990561485290527,
+        -1.641174077987671
+      ],
+      "confidence": 0.85,
+      "detection_step": 102,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 102
+    },
+    {
+      "type": "mirror",
+      "position": [
+        4.504164695739746,
+        -2.6990561485290527,
+        -1.641174077987671
+      ],
+      "confidence": 0.85,
+      "detection_step": 102,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 102
+    },
+    {
+      "type": "plant",
+      "position": [
+        4.504164695739746,
+        -2.6990561485290527,
+        -1.641174077987671
+      ],
+      "confidence": 0.85,
+      "detection_step": 102,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 102
+    },
+    {
+      "type": "window",
+      "position": [
+        4.504164695739746,
+        -2.6990561485290527,
+        -1.641174077987671
+      ],
+      "confidence": 0.85,
+      "detection_step": 102,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 102
+    },
+    {
+      "type": "pillow",
+      "position": [
+        4.178625583648682,
+        -2.706505060195923,
+        -1.1874133348464966
+      ],
+      "confidence": 0.85,
+      "detection_step": 970,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 970
+    },
+    {
+      "type": "door",
+      "position": [
+        4.097240924835205,
+        -2.7263665199279785,
+        -1.0739730596542358
+      ],
+      "confidence": 0.85,
+      "detection_step": 978,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 978
+    },
+    {
+      "type": "vase",
+      "position": [
+        4.097240924835205,
+        -2.7263665199279785,
+        -1.0739730596542358
+      ],
+      "confidence": 0.85,
+      "detection_step": 978,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 978
+    },
+    {
+      "type": "bed",
+      "position": [
+        4.056548595428467,
+        -2.736297369003296,
+        -1.017253041267395
+      ],
+      "confidence": 0.85,
+      "detection_step": 982,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 982
+    },
+    {
+      "type": "sofa",
+      "position": [
+        3.9751639366149902,
+        -2.7561588287353516,
+        -0.903812825679779
+      ],
+      "confidence": 0.85,
+      "detection_step": 990,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 990
+    },
+    {
+      "type": "table",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "lamp",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "clock",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "picture",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "plant",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "window",
+      "position": [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      "confidence": 0.85,
+      "detection_step": 107,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 107
+    },
+    {
+      "type": "chair",
+      "position": [
+        3.7864513397216797,
+        -2.745530605316162,
+        -0.9493043422698975
+      ],
+      "confidence": 0.85,
+      "detection_step": 999,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 999
+    },
+    {
+      "type": "desk",
+      "position": [
+        3.7519896030426025,
+        -2.7404592037200928,
+        -0.9784022569656372
+      ],
+      "confidence": 0.85,
+      "detection_step": 1000,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1000
+    },
+    {
+      "type": "pillow",
+      "position": [
+        3.6830661296844482,
+        -2.7531380653381348,
+        -1.0365980863571167
+      ],
+      "confidence": 0.85,
+      "detection_step": 1002,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1002
+    },
+    {
+      "type": "door",
+      "position": [
+        3.5796806812286377,
+        -2.773329734802246,
+        -1.123891830444336
+      ],
+      "confidence": 0.85,
+      "detection_step": 1005,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1005
+    },
+    {
+      "type": "bed",
+      "position": [
+        3.5452189445495605,
+        -2.780060291290283,
+        -1.1529897451400757
+      ],
+      "confidence": 0.85,
+      "detection_step": 1006,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1006
+    },
+    {
+      "type": "cabinet",
+      "position": [
+        3.441833734512329,
+        -2.8002517223358154,
+        -1.240283489227295
+      ],
+      "confidence": 0.85,
+      "detection_step": 1009,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1009
+    },
+    {
+      "type": "picture",
+      "position": [
+        3.441833734512329,
+        -2.8002517223358154,
+        -1.240283489227295
+      ],
+      "confidence": 0.85,
+      "detection_step": 1009,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1009
+    },
+    {
+      "type": "table",
+      "position": [
+        3.407371997833252,
+        -2.8069822788238525,
+        -1.2693814039230347
+      ],
+      "confidence": 0.85,
+      "detection_step": 1010,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1010
+    },
+    {
+      "type": "mirror",
+      "position": [
+        3.407371997833252,
+        -2.8069822788238525,
+        -1.2693814039230347
+      ],
+      "confidence": 0.85,
+      "detection_step": 1010,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1010
+    },
+    {
+      "type": "sofa",
+      "position": [
+        3.407371997833252,
+        -2.8069822788238525,
+        -1.2693814039230347
+      ],
+      "confidence": 0.85,
+      "detection_step": 1010,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1010
+    },
+    {
+      "type": "chair",
+      "position": [
+        3.3039865493774414,
+        -2.8271737098693848,
+        -1.3566750288009644
+      ],
+      "confidence": 0.85,
+      "detection_step": 1013,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1013
+    },
+    {
+      "type": "pillow",
+      "position": [
+        3.3039865493774414,
+        -2.8271737098693848,
+        -1.3566750288009644
+      ],
+      "confidence": 0.85,
+      "detection_step": 1013,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1013
+    },
+    {
+      "type": "vase",
+      "position": [
+        3.20060133934021,
+        -2.847365379333496,
+        -1.4439687728881836
+      ],
+      "confidence": 0.85,
+      "detection_step": 1016,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1016
+    },
+    {
+      "type": "door",
+      "position": [
+        3.20060133934021,
+        -2.847365379333496,
+        -1.4439687728881836
+      ],
+      "confidence": 0.85,
+      "detection_step": 1016,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1016
+    },
+    {
+      "type": "desk",
+      "position": [
+        3.20060133934021,
+        -2.847365379333496,
+        -1.4439687728881836
+      ],
+      "confidence": 0.85,
+      "detection_step": 1016,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1016
+    },
+    {
+      "type": "bed",
+      "position": [
+        3.166139602661133,
+        -2.854095935821533,
+        -1.4730666875839233
+      ],
+      "confidence": 0.85,
+      "detection_step": 1017,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1017
+    },
+    {
+      "type": "plant",
+      "position": [
+        3.166139602661133,
+        -2.854095935821533,
+        -1.4730666875839233
+      ],
+      "confidence": 0.85,
+      "detection_step": 112,
+      "frame_saved": true,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 112
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        3.234588146209717,
+        -2.8408961296081543,
+        -1.4111648797988892
+      ],
+      "confidence": 0.85,
+      "detection_step": 1024,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1024
+    },
+    {
+      "type": "rug",
+      "position": [
+        3.9281580448150635,
+        -2.7923805713653564,
+        -0.6640377640724182
+      ],
+      "confidence": 0.85,
+      "detection_step": 1193,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1193
+    },
+    {
+      "type": "sofa",
+      "position": [
+        4.291609764099121,
+        -2.6990561485290527,
+        -1.592880129814148
+      ],
+      "confidence": 0.85,
+      "detection_step": 1261,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1261
+    },
+    {
+      "type": "bookshelf",
+      "position": [
+        4.366814136505127,
+        -2.6990561485290527,
+        -1.6590509414672852
+      ],
+      "confidence": 0.85,
+      "detection_step": 1267,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1267
+    },
+    {
+      "type": "chair",
+      "position": [
+        4.379348278045654,
+        -2.6990561485290527,
+        -1.6700794696807861
+      ],
+      "confidence": 0.85,
+      "detection_step": 1268,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1268
+    },
+    {
+      "type": "picture",
+      "position": [
+        4.379348278045654,
+        -2.6990561485290527,
+        -1.6700794696807861
+      ],
+      "confidence": 0.85,
+      "detection_step": 1268,
+      "frame_saved": false,
+      "in_slam_trajectory": true,
+      "slam_frame_index": 1268
+    }
+  ],
+  "navigation_data": {
+    "visited_positions": [
+      [
+        1.2254475355148315,
+        -2.8990561962127686,
+        -0.14208072423934937
+      ],
+      [
+        2.2082479000091553,
+        -2.8990561962127686,
+        -0.23564720153808594
+      ],
+      [
+        3.2027223110198975,
+        -2.892834186553955,
+        -0.32492637634277344
+      ],
+      [
+        4.196663856506348,
+        -2.8155033588409424,
+        -0.4141576886177063
+      ],
+      [
+        3.2748656272888184,
+        -2.8576672077178955,
+        -0.7772358655929565
+      ],
+      [
+        4.018960475921631,
+        -2.862459897994995,
+        -0.14119072258472443
+      ],
+      [
+        3.098041296005249,
+        -2.8990561962127686,
+        -0.46155184507369995
+      ],
+      [
+        3.241610288619995,
+        -2.6990561485290527,
+        0.1643524169921875
+      ],
+      [
+        4.176219940185547,
+        -2.8481760025024414,
+        -0.19075462222099304
+      ],
+      [
+        5.155725479125977,
+        -2.827126979827881,
+        -0.14640925824642181
+      ],
+      [
+        5.937318801879883,
+        -2.8990561962127686,
+        0.47200292348861694
+      ],
+      [
+        5.876047134399414,
+        -2.8990561962127686,
+        -0.43605339527130127
+      ],
+      [
+        4.95589017868042,
+        -2.833867073059082,
+        -0.10129265487194061
+      ],
+      [
+        5.93235445022583,
+        -2.8990561962127686,
+        -0.23481039702892303
+      ],
+      [
+        6.403181552886963,
+        -2.8990561962127686,
+        0.6387988924980164
+      ],
+      [
+        5.6104960441589355,
+        -2.8990561962127686,
+        0.03060734085738659
+      ],
+      [
+        5.395098686218262,
+        -2.7387921810150146,
+        -0.8864359855651855
+      ],
+      [
+        4.447652816772461,
+        -2.712186336517334,
+        -1.1634325981140137
+      ],
+      [
+        5.430675029754639,
+        -2.714606285095215,
+        -1.0909252166748047
+      ],
+      [
+        5.441610336303711,
+        -2.499056339263916,
+        -1.9356474876403809
+      ],
+      [
+        4.504164695739746,
+        -2.6990561485290527,
+        -1.641174077987671
+      ],
+      [
+        3.9242985248565674,
+        -2.7685720920562744,
+        -0.8329126834869385
+      ],
+      [
+        3.166139602661133,
+        -2.854095935821533,
+        -1.4730666875839233
+      ],
+      [
+        3.8995168209075928,
+        -2.77299165725708,
+        -0.8098336458206177
+      ],
+      [
+        3.4229586124420166,
+        -2.8478500843048096,
+        0.0318358913064003
+      ],
+      [
+        3.9622931480407715,
+        -2.7841298580169678,
+        -0.7110562920570374
+      ],
+      [
+        4.291609764099121,
+        -2.6990561485290527,
+        -1.592880129814148
+      ],
+      [
+        5.441610336303711,
+        -2.499056339263916,
+        -1.9356474876403809
+      ]
+    ],
+    "total_visited_positions": 28,
+    "slam_trajectory_available": true
+  }
+}

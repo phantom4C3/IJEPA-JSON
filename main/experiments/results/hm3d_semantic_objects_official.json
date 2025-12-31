@@ -1,0 +1,3313 @@
+{
+  "scene": "/mnt/d/Coding/Business/Kulfi_Startup_Code/robotics_workspace/projects/hybrid_zero_shot_slam_nav/main/datasets/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+  "num_objects": 661,
+  "objects": [
+    {
+      "object_id": "Unknown_0",
+      "category_name": "Unknown",
+      "category_id": 0
+    },
+    {
+      "object_id": "ceiling_1",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "wall_2",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_3",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door_4",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "handle_5",
+      "category_name": "handle",
+      "category_id": 4
+    },
+    {
+      "object_id": "wall_6",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_7",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "chandelier_8",
+      "category_name": "chandelier",
+      "category_id": 5
+    },
+    {
+      "object_id": "wardrobe_9",
+      "category_name": "wardrobe",
+      "category_id": 6
+    },
+    {
+      "object_id": "tv_10",
+      "category_name": "tv",
+      "category_id": 7
+    },
+    {
+      "object_id": "wardrobe_11",
+      "category_name": "wardrobe",
+      "category_id": 6
+    },
+    {
+      "object_id": "cabinet_12",
+      "category_name": "cabinet",
+      "category_id": 8
+    },
+    {
+      "object_id": "cabinet_13",
+      "category_name": "cabinet",
+      "category_id": 8
+    },
+    {
+      "object_id": "blanket_14",
+      "category_name": "blanket",
+      "category_id": 9
+    },
+    {
+      "object_id": "pad_15",
+      "category_name": "pad",
+      "category_id": 10
+    },
+    {
+      "object_id": "bed_16",
+      "category_name": "bed",
+      "category_id": 11
+    },
+    {
+      "object_id": "pillow_17",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "pillow_18",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "nightstand_19",
+      "category_name": "nightstand",
+      "category_id": 13
+    },
+    {
+      "object_id": "book_20",
+      "category_name": "book",
+      "category_id": 14
+    },
+    {
+      "object_id": "table lamp_21",
+      "category_name": "table lamp",
+      "category_id": 15
+    },
+    {
+      "object_id": "nightstand_22",
+      "category_name": "nightstand",
+      "category_id": 13
+    },
+    {
+      "object_id": "book_23",
+      "category_name": "book",
+      "category_id": 14
+    },
+    {
+      "object_id": "table lamp_24",
+      "category_name": "table lamp",
+      "category_id": 15
+    },
+    {
+      "object_id": "plush toy_25",
+      "category_name": "plush toy",
+      "category_id": 16
+    },
+    {
+      "object_id": "plush toy_26",
+      "category_name": "plush toy",
+      "category_id": 16
+    },
+    {
+      "object_id": "window_27",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window_28",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_29",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "armchair_30",
+      "category_name": "armchair",
+      "category_id": 19
+    },
+    {
+      "object_id": "floor_31",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "door_32",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "door frame_33",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_34",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_35",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "wall_36",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_37",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_38",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_39",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "floor_40",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "mat_41",
+      "category_name": "mat",
+      "category_id": 22
+    },
+    {
+      "object_id": "towel_42",
+      "category_name": "towel",
+      "category_id": 23
+    },
+    {
+      "object_id": "bucket_43",
+      "category_name": "bucket",
+      "category_id": 24
+    },
+    {
+      "object_id": "cabinet_44",
+      "category_name": "cabinet",
+      "category_id": 8
+    },
+    {
+      "object_id": "tap_45",
+      "category_name": "tap",
+      "category_id": 25
+    },
+    {
+      "object_id": "hand soap_46",
+      "category_name": "hand soap",
+      "category_id": 26
+    },
+    {
+      "object_id": "door_47",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "door frame_48",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_49",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_50",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "toilet_51",
+      "category_name": "toilet",
+      "category_id": 27
+    },
+    {
+      "object_id": "toilet brush_52",
+      "category_name": "toilet brush",
+      "category_id": 28
+    },
+    {
+      "object_id": "lamp_53",
+      "category_name": "lamp",
+      "category_id": 29
+    },
+    {
+      "object_id": "lamp_54",
+      "category_name": "lamp",
+      "category_id": 29
+    },
+    {
+      "object_id": "ceiling_55",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "wall_56",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_57",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_58",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_59",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_60",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "shower curtain_61",
+      "category_name": "shower curtain",
+      "category_id": 30
+    },
+    {
+      "object_id": "door_62",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "door frame_63",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_64",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "ceiling_65",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "wall_66",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_67",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_68",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_69",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_70",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_71",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_72",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_73",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_74",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "curtain_75",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_76",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "window frame_77",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_78",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_79",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_80",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window_81",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_82",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_83",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_84",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_85",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window_86",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "photo_87",
+      "category_name": "photo",
+      "category_id": 32
+    },
+    {
+      "object_id": "sheet_88",
+      "category_name": "sheet",
+      "category_id": 33
+    },
+    {
+      "object_id": "sheet_89",
+      "category_name": "sheet",
+      "category_id": 33
+    },
+    {
+      "object_id": "sheet_90",
+      "category_name": "sheet",
+      "category_id": 33
+    },
+    {
+      "object_id": "sheet_91",
+      "category_name": "sheet",
+      "category_id": 33
+    },
+    {
+      "object_id": "wall_92",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "frame_93",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "frame_94",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "frame_95",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "frame_96",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "frame_97",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "frame_98",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "frame_99",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "frame_100",
+      "category_name": "frame",
+      "category_id": 34
+    },
+    {
+      "object_id": "door frame_101",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_102",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_103",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door_104",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "toy_105",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "wall_106",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door_107",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "toy_108",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "toy_109",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "board_110",
+      "category_name": "board",
+      "category_id": 36
+    },
+    {
+      "object_id": "board_111",
+      "category_name": "board",
+      "category_id": 36
+    },
+    {
+      "object_id": "wall_112",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "ventilation_113",
+      "category_name": "ventilation",
+      "category_id": 37
+    },
+    {
+      "object_id": "attic door_114",
+      "category_name": "attic door",
+      "category_id": 38
+    },
+    {
+      "object_id": "chandelier_115",
+      "category_name": "chandelier",
+      "category_id": 5
+    },
+    {
+      "object_id": "light_116",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "light_117",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "vent_118",
+      "category_name": "vent",
+      "category_id": 40
+    },
+    {
+      "object_id": "light_119",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "chandelier_120",
+      "category_name": "chandelier",
+      "category_id": 5
+    },
+    {
+      "object_id": "light_121",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "bicycle_122",
+      "category_name": "bicycle",
+      "category_id": 41
+    },
+    {
+      "object_id": "box_123",
+      "category_name": "box",
+      "category_id": 42
+    },
+    {
+      "object_id": "box_124",
+      "category_name": "box",
+      "category_id": 42
+    },
+    {
+      "object_id": "unknown_125",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "box_126",
+      "category_name": "box",
+      "category_id": 42
+    },
+    {
+      "object_id": "toy_127",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "toy_128",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "toy_129",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "toy_130",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "toy_131",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "couch_132",
+      "category_name": "couch",
+      "category_id": 44
+    },
+    {
+      "object_id": "basket_133",
+      "category_name": "basket",
+      "category_id": 45
+    },
+    {
+      "object_id": "floor_134",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "wardrobe_135",
+      "category_name": "wardrobe",
+      "category_id": 6
+    },
+    {
+      "object_id": "toy_136",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "wardrobe_137",
+      "category_name": "wardrobe",
+      "category_id": 6
+    },
+    {
+      "object_id": "magazine_138",
+      "category_name": "magazine",
+      "category_id": 46
+    },
+    {
+      "object_id": "magazine_139",
+      "category_name": "magazine",
+      "category_id": 46
+    },
+    {
+      "object_id": "book_140",
+      "category_name": "book",
+      "category_id": 14
+    },
+    {
+      "object_id": "stack of papers_141",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "stack of papers_142",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "stack of papers_143",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "box_144",
+      "category_name": "box",
+      "category_id": 42
+    },
+    {
+      "object_id": "picture_145",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "stack of papers_146",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "stack of papers_147",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "unknown_148",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_149",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "folder_150",
+      "category_name": "folder",
+      "category_id": 49
+    },
+    {
+      "object_id": "stack of papers_151",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "stack of papers_152",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "box_153",
+      "category_name": "box",
+      "category_id": 42
+    },
+    {
+      "object_id": "table_154",
+      "category_name": "table",
+      "category_id": 50
+    },
+    {
+      "object_id": "stack of papers_155",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "stack of papers_156",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "unknown_157",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_158",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_159",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "chair_160",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "handbag_161",
+      "category_name": "handbag",
+      "category_id": 52
+    },
+    {
+      "object_id": "pc tower_162",
+      "category_name": "pc tower",
+      "category_id": 53
+    },
+    {
+      "object_id": "trashcan_163",
+      "category_name": "trashcan",
+      "category_id": 54
+    },
+    {
+      "object_id": "computer desk_164",
+      "category_name": "computer desk",
+      "category_id": 55
+    },
+    {
+      "object_id": "plush toy_165",
+      "category_name": "plush toy",
+      "category_id": 16
+    },
+    {
+      "object_id": "plush toy_166",
+      "category_name": "plush toy",
+      "category_id": 16
+    },
+    {
+      "object_id": "printer_167",
+      "category_name": "printer",
+      "category_id": 56
+    },
+    {
+      "object_id": "telephone_168",
+      "category_name": "telephone",
+      "category_id": 57
+    },
+    {
+      "object_id": "desk lamp_169",
+      "category_name": "desk lamp",
+      "category_id": 58
+    },
+    {
+      "object_id": "unknown_170",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_171",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_172",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_173",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "chair_174",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "box_175",
+      "category_name": "box",
+      "category_id": 42
+    },
+    {
+      "object_id": "basket_176",
+      "category_name": "basket",
+      "category_id": 45
+    },
+    {
+      "object_id": "toy_177",
+      "category_name": "toy",
+      "category_id": 35
+    },
+    {
+      "object_id": "table_178",
+      "category_name": "table",
+      "category_id": 50
+    },
+    {
+      "object_id": "unknown_179",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_180",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_181",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "plant_182",
+      "category_name": "plant",
+      "category_id": 59
+    },
+    {
+      "object_id": "plant_183",
+      "category_name": "plant",
+      "category_id": 59
+    },
+    {
+      "object_id": "plant_184",
+      "category_name": "plant",
+      "category_id": 59
+    },
+    {
+      "object_id": "stack of papers_185",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "couch_186",
+      "category_name": "couch",
+      "category_id": 44
+    },
+    {
+      "object_id": "shirt_187",
+      "category_name": "shirt",
+      "category_id": 60
+    },
+    {
+      "object_id": "bag_188",
+      "category_name": "bag",
+      "category_id": 61
+    },
+    {
+      "object_id": "blanket_189",
+      "category_name": "blanket",
+      "category_id": 9
+    },
+    {
+      "object_id": "table_190",
+      "category_name": "table",
+      "category_id": 50
+    },
+    {
+      "object_id": "handbag_191",
+      "category_name": "handbag",
+      "category_id": 52
+    },
+    {
+      "object_id": "newspaper_192",
+      "category_name": "newspaper",
+      "category_id": 62
+    },
+    {
+      "object_id": "newspaper_193",
+      "category_name": "newspaper",
+      "category_id": 62
+    },
+    {
+      "object_id": "balustrade_194",
+      "category_name": "balustrade",
+      "category_id": 63
+    },
+    {
+      "object_id": "stairs_195",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "wall_196",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "stairs_197",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_198",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_199",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_200",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_201",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_202",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_203",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_204",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_205",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_206",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_207",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_208",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_209",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_210",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_211",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_212",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_213",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_214",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_215",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_216",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_217",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_218",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_219",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_220",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_221",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_222",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_223",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_224",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_225",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_226",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "stairs_227",
+      "category_name": "stairs",
+      "category_id": 64
+    },
+    {
+      "object_id": "picture_228",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "picture_229",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "picture_230",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "picture_231",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "picture_232",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "wall_233",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "picture_234",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "door_235",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "window curtain_236",
+      "category_name": "window curtain",
+      "category_id": 65
+    },
+    {
+      "object_id": "curtain rod_237",
+      "category_name": "curtain rod",
+      "category_id": 66
+    },
+    {
+      "object_id": "speaker_238",
+      "category_name": "speaker",
+      "category_id": 67
+    },
+    {
+      "object_id": "ceiling_239",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "wall_240",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "window_241",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window_242",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_243",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_244",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_245",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_246",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_247",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "curtain_248",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_249",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_250",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_251",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain rod_252",
+      "category_name": "curtain rod",
+      "category_id": 66
+    },
+    {
+      "object_id": "curtain rod_253",
+      "category_name": "curtain rod",
+      "category_id": 66
+    },
+    {
+      "object_id": "led tv_254",
+      "category_name": "led tv",
+      "category_id": 68
+    },
+    {
+      "object_id": "fireplace_255",
+      "category_name": "fireplace",
+      "category_id": 69
+    },
+    {
+      "object_id": "unknown_256",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_257",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_258",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_259",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_260",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_261",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "flower_262",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "chandelier_263",
+      "category_name": "chandelier",
+      "category_id": 5
+    },
+    {
+      "object_id": "armchair_264",
+      "category_name": "armchair",
+      "category_id": 19
+    },
+    {
+      "object_id": "unknown_265",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "armchair_266",
+      "category_name": "armchair",
+      "category_id": 19
+    },
+    {
+      "object_id": "table_267",
+      "category_name": "table",
+      "category_id": 50
+    },
+    {
+      "object_id": "decorative plate_268",
+      "category_name": "decorative plate",
+      "category_id": 71
+    },
+    {
+      "object_id": "unknown_269",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "flower_270",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "floor mat_271",
+      "category_name": "floor mat",
+      "category_id": 72
+    },
+    {
+      "object_id": "pillar_272",
+      "category_name": "pillar",
+      "category_id": 73
+    },
+    {
+      "object_id": "speaker_273",
+      "category_name": "speaker",
+      "category_id": 67
+    },
+    {
+      "object_id": "fire alarm_274",
+      "category_name": "fire alarm",
+      "category_id": 74
+    },
+    {
+      "object_id": "couch_275",
+      "category_name": "couch",
+      "category_id": 44
+    },
+    {
+      "object_id": "table_276",
+      "category_name": "table",
+      "category_id": 50
+    },
+    {
+      "object_id": "book_277",
+      "category_name": "book",
+      "category_id": 14
+    },
+    {
+      "object_id": "lamp_278",
+      "category_name": "lamp",
+      "category_id": 29
+    },
+    {
+      "object_id": "flower_279",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "table_280",
+      "category_name": "table",
+      "category_id": 50
+    },
+    {
+      "object_id": "unknown_281",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "plate_282",
+      "category_name": "plate",
+      "category_id": 75
+    },
+    {
+      "object_id": "lamp_283",
+      "category_name": "lamp",
+      "category_id": 29
+    },
+    {
+      "object_id": "flower_284",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "alarm control_285",
+      "category_name": "alarm control",
+      "category_id": 76
+    },
+    {
+      "object_id": "wall_286",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "balustrade_287",
+      "category_name": "balustrade",
+      "category_id": 63
+    },
+    {
+      "object_id": "wall_288",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "floor_289",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "window frame_290",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "picture_291",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "floor_292",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "floor mat_293",
+      "category_name": "floor mat",
+      "category_id": 72
+    },
+    {
+      "object_id": "floor mat_294",
+      "category_name": "floor mat",
+      "category_id": 72
+    },
+    {
+      "object_id": "plate_295",
+      "category_name": "plate",
+      "category_id": 75
+    },
+    {
+      "object_id": "ceiling_296",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "ceiling lamp_297",
+      "category_name": "ceiling lamp",
+      "category_id": 77
+    },
+    {
+      "object_id": "ceiling lamp_298",
+      "category_name": "ceiling lamp",
+      "category_id": 77
+    },
+    {
+      "object_id": "ceiling lamp_299",
+      "category_name": "ceiling lamp",
+      "category_id": 77
+    },
+    {
+      "object_id": "light_300",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "light_301",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "light_302",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "light_303",
+      "category_name": "light",
+      "category_id": 39
+    },
+    {
+      "object_id": "ceiling vent_304",
+      "category_name": "ceiling vent",
+      "category_id": 78
+    },
+    {
+      "object_id": "wall_305",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall clock_306",
+      "category_name": "wall clock",
+      "category_id": 79
+    },
+    {
+      "object_id": "flag_307",
+      "category_name": "flag",
+      "category_id": 80
+    },
+    {
+      "object_id": "wall_308",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_309",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "unknown_310",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_311",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "wall_312",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_313",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_314",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_315",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_316",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_317",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "chair_318",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_319",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "plate_320",
+      "category_name": "plate",
+      "category_id": 75
+    },
+    {
+      "object_id": "flower_321",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "flower_322",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "refrigerator_323",
+      "category_name": "refrigerator",
+      "category_id": 81
+    },
+    {
+      "object_id": "kitchen cabinet_324",
+      "category_name": "kitchen cabinet",
+      "category_id": 82
+    },
+    {
+      "object_id": "curtain_325",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "window_326",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_327",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "kitchen appliance_328",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "kitchen appliance_329",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "coffee machine_330",
+      "category_name": "coffee machine",
+      "category_id": 84
+    },
+    {
+      "object_id": "kitchen appliance_331",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "kitchen appliance_332",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "kitchen appliance_333",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "coffee machine_334",
+      "category_name": "coffee machine",
+      "category_id": 84
+    },
+    {
+      "object_id": "coffee mug_335",
+      "category_name": "coffee mug",
+      "category_id": 85
+    },
+    {
+      "object_id": "worktop_336",
+      "category_name": "worktop",
+      "category_id": 86
+    },
+    {
+      "object_id": "sink_337",
+      "category_name": "sink",
+      "category_id": 87
+    },
+    {
+      "object_id": "tap_338",
+      "category_name": "tap",
+      "category_id": 25
+    },
+    {
+      "object_id": "unknown_339",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_340",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_341",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_342",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "knife holder_343",
+      "category_name": "knife holder",
+      "category_id": 88
+    },
+    {
+      "object_id": "kitchen cabinet_344",
+      "category_name": "kitchen cabinet",
+      "category_id": 82
+    },
+    {
+      "object_id": "microwave_345",
+      "category_name": "microwave",
+      "category_id": 89
+    },
+    {
+      "object_id": "kitchen countertop item_346",
+      "category_name": "kitchen countertop item",
+      "category_id": 90
+    },
+    {
+      "object_id": "kitchen appliance_347",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "oven and stove_348",
+      "category_name": "oven and stove",
+      "category_id": 91
+    },
+    {
+      "object_id": "kitchen appliance_349",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "kitchen appliance_350",
+      "category_name": "kitchen appliance",
+      "category_id": 83
+    },
+    {
+      "object_id": "kitchen cabinet_351",
+      "category_name": "kitchen cabinet",
+      "category_id": 82
+    },
+    {
+      "object_id": "door frame_352",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_353",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "fruit bowl_354",
+      "category_name": "fruit bowl",
+      "category_id": 92
+    },
+    {
+      "object_id": "door frame_355",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_356",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_357",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_358",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_359",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_360",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "dishwasher_361",
+      "category_name": "dishwasher",
+      "category_id": 93
+    },
+    {
+      "object_id": "floor_362",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "floor_363",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "wall_364",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door_365",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "wall_366",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door_367",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "wall_368",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_369",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door frame_370",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_371",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_372",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_373",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "ceiling_374",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "floor_375",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "wall_376",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "picture_377",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "towel_378",
+      "category_name": "towel",
+      "category_id": 23
+    },
+    {
+      "object_id": "handle_379",
+      "category_name": "handle",
+      "category_id": 4
+    },
+    {
+      "object_id": "ceiling_380",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "ventilation_381",
+      "category_name": "ventilation",
+      "category_id": 37
+    },
+    {
+      "object_id": "wall_382",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "picture_383",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "bath sink_384",
+      "category_name": "bath sink",
+      "category_id": 94
+    },
+    {
+      "object_id": "tap_385",
+      "category_name": "tap",
+      "category_id": 25
+    },
+    {
+      "object_id": "unknown_386",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "wall_387",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "toilet paper_388",
+      "category_name": "toilet paper",
+      "category_id": 95
+    },
+    {
+      "object_id": "toilet seat_389",
+      "category_name": "toilet seat",
+      "category_id": 96
+    },
+    {
+      "object_id": "unknown_390",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "door_391",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "door handle_392",
+      "category_name": "door handle",
+      "category_id": 97
+    },
+    {
+      "object_id": "ceiling lamp_393",
+      "category_name": "ceiling lamp",
+      "category_id": 77
+    },
+    {
+      "object_id": "wall_394",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "hand soap_395",
+      "category_name": "hand soap",
+      "category_id": 26
+    },
+    {
+      "object_id": "toilet paper_396",
+      "category_name": "toilet paper",
+      "category_id": 95
+    },
+    {
+      "object_id": "towel_397",
+      "category_name": "towel",
+      "category_id": 23
+    },
+    {
+      "object_id": "towel_398",
+      "category_name": "towel",
+      "category_id": 23
+    },
+    {
+      "object_id": "bathroom shelf_399",
+      "category_name": "bathroom shelf",
+      "category_id": 98
+    },
+    {
+      "object_id": "bathroom shelf_400",
+      "category_name": "bathroom shelf",
+      "category_id": 98
+    },
+    {
+      "object_id": "wall_401",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_402",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_403",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door_404",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "alarm_405",
+      "category_name": "alarm",
+      "category_id": 99
+    },
+    {
+      "object_id": "wall_406",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "picture_407",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "floor_408",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "doormat_409",
+      "category_name": "doormat",
+      "category_id": 100
+    },
+    {
+      "object_id": "door_410",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "window curtain_411",
+      "category_name": "window curtain",
+      "category_id": 65
+    },
+    {
+      "object_id": "window curtain_412",
+      "category_name": "window curtain",
+      "category_id": 65
+    },
+    {
+      "object_id": "window_413",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_414",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "unknown_415",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "wall_416",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_417",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_418",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "ceiling_419",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "ventilation hood_420",
+      "category_name": "ventilation hood",
+      "category_id": 101
+    },
+    {
+      "object_id": "ceiling lamp_421",
+      "category_name": "ceiling lamp",
+      "category_id": 77
+    },
+    {
+      "object_id": "ceiling_422",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "ceiling lamp_423",
+      "category_name": "ceiling lamp",
+      "category_id": 77
+    },
+    {
+      "object_id": "alarm_424",
+      "category_name": "alarm",
+      "category_id": 99
+    },
+    {
+      "object_id": "wall_425",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_426",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door_427",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "wall_428",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_429",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_430",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "door frame_431",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_432",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_433",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "wall_434",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "curtain_435",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_436",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "window_437",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window_438",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_439",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "window frame_440",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "wall_441",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "picture_442",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "ceiling_443",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "floor_444",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "chair_445",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_446",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_447",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_448",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_449",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_450",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_451",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "table_452",
+      "category_name": "table",
+      "category_id": 50
+    },
+    {
+      "object_id": "chair_453",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "cabinet_454",
+      "category_name": "cabinet",
+      "category_id": 8
+    },
+    {
+      "object_id": "flower_455",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "flower_456",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "flower_457",
+      "category_name": "flower",
+      "category_id": 70
+    },
+    {
+      "object_id": "pad_458",
+      "category_name": "pad",
+      "category_id": 10
+    },
+    {
+      "object_id": "pad_459",
+      "category_name": "pad",
+      "category_id": 10
+    },
+    {
+      "object_id": "ventilation hood_460",
+      "category_name": "ventilation hood",
+      "category_id": 101
+    },
+    {
+      "object_id": "wall_461",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "ceiling_462",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "chandelier_463",
+      "category_name": "chandelier",
+      "category_id": 5
+    },
+    {
+      "object_id": "wall_464",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_465",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_466",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_467",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_468",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "curtain_469",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_470",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_471",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "curtain_472",
+      "category_name": "curtain",
+      "category_id": 31
+    },
+    {
+      "object_id": "alarm_473",
+      "category_name": "alarm",
+      "category_id": 99
+    },
+    {
+      "object_id": "curtain rod_474",
+      "category_name": "curtain rod",
+      "category_id": 66
+    },
+    {
+      "object_id": "window_475",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_476",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "curtain rod_477",
+      "category_name": "curtain rod",
+      "category_id": 66
+    },
+    {
+      "object_id": "window_478",
+      "category_name": "window",
+      "category_id": 17
+    },
+    {
+      "object_id": "window frame_479",
+      "category_name": "window frame",
+      "category_id": 18
+    },
+    {
+      "object_id": "dresser_480",
+      "category_name": "dresser",
+      "category_id": 102
+    },
+    {
+      "object_id": "casket_481",
+      "category_name": "casket",
+      "category_id": 103
+    },
+    {
+      "object_id": "unknown_482",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_483",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_484",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "wall hanging decoration_485",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_486",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_487",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_488",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_489",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_490",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_491",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_492",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_493",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_494",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_495",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_496",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_497",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_498",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_499",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_500",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_501",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_502",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_503",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_504",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_505",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall hanging decoration_506",
+      "category_name": "wall hanging decoration",
+      "category_id": 104
+    },
+    {
+      "object_id": "wall_507",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "laundry basket_508",
+      "category_name": "laundry basket",
+      "category_id": 105
+    },
+    {
+      "object_id": "laundry basket_509",
+      "category_name": "laundry basket",
+      "category_id": 105
+    },
+    {
+      "object_id": "led tv_510",
+      "category_name": "led tv",
+      "category_id": 68
+    },
+    {
+      "object_id": "wardrobe_511",
+      "category_name": "wardrobe",
+      "category_id": 6
+    },
+    {
+      "object_id": "electric box_512",
+      "category_name": "electric box",
+      "category_id": 106
+    },
+    {
+      "object_id": "electric box_513",
+      "category_name": "electric box",
+      "category_id": 106
+    },
+    {
+      "object_id": "electrical controller_514",
+      "category_name": "electrical controller",
+      "category_id": 107
+    },
+    {
+      "object_id": "unknown_515",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "bed_516",
+      "category_name": "bed",
+      "category_id": 11
+    },
+    {
+      "object_id": "bed_517",
+      "category_name": "bed",
+      "category_id": 11
+    },
+    {
+      "object_id": "pillow_518",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "pillow_519",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "pillow_520",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "pillow_521",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "nightstand_522",
+      "category_name": "nightstand",
+      "category_id": 13
+    },
+    {
+      "object_id": "unknown_523",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_524",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_525",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "table lamp_526",
+      "category_name": "table lamp",
+      "category_id": 15
+    },
+    {
+      "object_id": "nightstand_527",
+      "category_name": "nightstand",
+      "category_id": 13
+    },
+    {
+      "object_id": "unknown_528",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_529",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "tissue box_530",
+      "category_name": "tissue box",
+      "category_id": 108
+    },
+    {
+      "object_id": "table lamp_531",
+      "category_name": "table lamp",
+      "category_id": 15
+    },
+    {
+      "object_id": "floor_532",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "door_533",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "door frame_534",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_535",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_536",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_537",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_538",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_539",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "ceiling_540",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "ceiling vent_541",
+      "category_name": "ceiling vent",
+      "category_id": 78
+    },
+    {
+      "object_id": "ventilation hood_542",
+      "category_name": "ventilation hood",
+      "category_id": 101
+    },
+    {
+      "object_id": "wall_543",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_544",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_545",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_546",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_547",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_548",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "floor_549",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "bath mat_550",
+      "category_name": "bath mat",
+      "category_id": 109
+    },
+    {
+      "object_id": "bath mat_551",
+      "category_name": "bath mat",
+      "category_id": 109
+    },
+    {
+      "object_id": "bath mat_552",
+      "category_name": "bath mat",
+      "category_id": 109
+    },
+    {
+      "object_id": "trashcan_553",
+      "category_name": "trashcan",
+      "category_id": 54
+    },
+    {
+      "object_id": "door_554",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "shower dial_555",
+      "category_name": "shower dial",
+      "category_id": 110
+    },
+    {
+      "object_id": "tap_556",
+      "category_name": "tap",
+      "category_id": 25
+    },
+    {
+      "object_id": "bath_557",
+      "category_name": "bath",
+      "category_id": 111
+    },
+    {
+      "object_id": "towel_558",
+      "category_name": "towel",
+      "category_id": 23
+    },
+    {
+      "object_id": "towel_559",
+      "category_name": "towel",
+      "category_id": 23
+    },
+    {
+      "object_id": "wall_560",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_561",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_562",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_563",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "unknown_564",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "bathroom cabinet_565",
+      "category_name": "bathroom cabinet",
+      "category_id": 112
+    },
+    {
+      "object_id": "bathroom cabinet_566",
+      "category_name": "bathroom cabinet",
+      "category_id": 112
+    },
+    {
+      "object_id": "tap_567",
+      "category_name": "tap",
+      "category_id": 25
+    },
+    {
+      "object_id": "tap_568",
+      "category_name": "tap",
+      "category_id": 25
+    },
+    {
+      "object_id": "bathroom accessory_569",
+      "category_name": "bathroom accessory",
+      "category_id": 113
+    },
+    {
+      "object_id": "bathroom accessory_570",
+      "category_name": "bathroom accessory",
+      "category_id": 113
+    },
+    {
+      "object_id": "bathroom accessory_571",
+      "category_name": "bathroom accessory",
+      "category_id": 113
+    },
+    {
+      "object_id": "mirror_572",
+      "category_name": "mirror",
+      "category_id": 114
+    },
+    {
+      "object_id": "soap bottle_573",
+      "category_name": "soap bottle",
+      "category_id": 115
+    },
+    {
+      "object_id": "mirror frame_574",
+      "category_name": "mirror frame",
+      "category_id": 116
+    },
+    {
+      "object_id": "bath sink_575",
+      "category_name": "bath sink",
+      "category_id": 94
+    },
+    {
+      "object_id": "bath sink_576",
+      "category_name": "bath sink",
+      "category_id": 94
+    },
+    {
+      "object_id": "mirror_577",
+      "category_name": "mirror",
+      "category_id": 114
+    },
+    {
+      "object_id": "mirror frame_578",
+      "category_name": "mirror frame",
+      "category_id": 116
+    },
+    {
+      "object_id": "wall lamp_579",
+      "category_name": "wall lamp",
+      "category_id": 117
+    },
+    {
+      "object_id": "wall lamp_580",
+      "category_name": "wall lamp",
+      "category_id": 117
+    },
+    {
+      "object_id": "wall lamp_581",
+      "category_name": "wall lamp",
+      "category_id": 117
+    },
+    {
+      "object_id": "wall lamp_582",
+      "category_name": "wall lamp",
+      "category_id": 117
+    },
+    {
+      "object_id": "door_583",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "ceiling_584",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "wall_585",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_586",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_587",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_588",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_589",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_590",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "floor_591",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "shoe_592",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_593",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_594",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_595",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_596",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_597",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_598",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_599",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_600",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_601",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "iron board_602",
+      "category_name": "iron board",
+      "category_id": 119
+    },
+    {
+      "object_id": "iron_603",
+      "category_name": "iron",
+      "category_id": 120
+    },
+    {
+      "object_id": "clothes_604",
+      "category_name": "clothes",
+      "category_id": 121
+    },
+    {
+      "object_id": "unknown_605",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "pillow_606",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "pillow_607",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "pillow_608",
+      "category_name": "pillow",
+      "category_id": 12
+    },
+    {
+      "object_id": "shoe_609",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_610",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_611",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_612",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "clothes_613",
+      "category_name": "clothes",
+      "category_id": 121
+    },
+    {
+      "object_id": "unknown_614",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_615",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "clothes_616",
+      "category_name": "clothes",
+      "category_id": 121
+    },
+    {
+      "object_id": "clothes_617",
+      "category_name": "clothes",
+      "category_id": 121
+    },
+    {
+      "object_id": "clothes_618",
+      "category_name": "clothes",
+      "category_id": 121
+    },
+    {
+      "object_id": "blanket_619",
+      "category_name": "blanket",
+      "category_id": 9
+    },
+    {
+      "object_id": "clothes_620",
+      "category_name": "clothes",
+      "category_id": 121
+    },
+    {
+      "object_id": "clothes hanger rod_621",
+      "category_name": "clothes hanger rod",
+      "category_id": 122
+    },
+    {
+      "object_id": "clothes hanger rod_622",
+      "category_name": "clothes hanger rod",
+      "category_id": 122
+    },
+    {
+      "object_id": "shoe_623",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_624",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_625",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "shoe_626",
+      "category_name": "shoe",
+      "category_id": 118
+    },
+    {
+      "object_id": "case_627",
+      "category_name": "case",
+      "category_id": 123
+    },
+    {
+      "object_id": "stack of papers_628",
+      "category_name": "stack of papers",
+      "category_id": 47
+    },
+    {
+      "object_id": "storage box_629",
+      "category_name": "storage box",
+      "category_id": 124
+    },
+    {
+      "object_id": "briefcase_630",
+      "category_name": "briefcase",
+      "category_id": 125
+    },
+    {
+      "object_id": "briefcase_631",
+      "category_name": "briefcase",
+      "category_id": 125
+    },
+    {
+      "object_id": "backpack_632",
+      "category_name": "backpack",
+      "category_id": 126
+    },
+    {
+      "object_id": "boxes_633",
+      "category_name": "boxes",
+      "category_id": 127
+    },
+    {
+      "object_id": "door_634",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "door frame_635",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_636",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "door frame_637",
+      "category_name": "door frame",
+      "category_id": 21
+    },
+    {
+      "object_id": "ceiling lamp_638",
+      "category_name": "ceiling lamp",
+      "category_id": 77
+    },
+    {
+      "object_id": "ventilation hood_639",
+      "category_name": "ventilation hood",
+      "category_id": 101
+    },
+    {
+      "object_id": "unknown_640",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "chair_641",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "chair_642",
+      "category_name": "chair",
+      "category_id": 51
+    },
+    {
+      "object_id": "unknown_643",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "floor_644",
+      "category_name": "floor",
+      "category_id": 20
+    },
+    {
+      "object_id": "unknown_645",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "door_646",
+      "category_name": "door",
+      "category_id": 3
+    },
+    {
+      "object_id": "wall_647",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "wall_648",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "ceiling_649",
+      "category_name": "ceiling",
+      "category_id": 1
+    },
+    {
+      "object_id": "wall_650",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "picture_651",
+      "category_name": "picture",
+      "category_id": 48
+    },
+    {
+      "object_id": "towel_652",
+      "category_name": "towel",
+      "category_id": 23
+    },
+    {
+      "object_id": "wall_653",
+      "category_name": "wall",
+      "category_id": 2
+    },
+    {
+      "object_id": "kitchen shelf_654",
+      "category_name": "kitchen shelf",
+      "category_id": 128
+    },
+    {
+      "object_id": "bathroom shelf_655",
+      "category_name": "bathroom shelf",
+      "category_id": 98
+    },
+    {
+      "object_id": "toilet paper_656",
+      "category_name": "toilet paper",
+      "category_id": 95
+    },
+    {
+      "object_id": "bottle of soap_657",
+      "category_name": "bottle of soap",
+      "category_id": 129
+    },
+    {
+      "object_id": "unknown_658",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "unknown_659",
+      "category_name": "unknown",
+      "category_id": 43
+    },
+    {
+      "object_id": "ventilation hood_660",
+      "category_name": "ventilation hood",
+      "category_id": 101
+    }
+  ],
+  "timestamp": "2025-12-13 13:09:01",
+  "habitat_sim_version": "0.3.3"
+}

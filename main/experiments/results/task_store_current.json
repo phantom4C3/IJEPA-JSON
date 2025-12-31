@@ -1,0 +1,2655 @@
+{
+  "timestamp": 1767144484.3325002,
+  "last_update": "20251231_012804",
+  "current_reasoning_plans": {
+    "reason_1767144445335": {
+      "metadata": {
+        "reasoning_cycle_id": "reason_1767144445335",
+        "timestamp": 1767144445.335229,
+        "status": "initialized",
+        "source": "reasoning_pipeline",
+        "component": "metadata"
+      },
+      "intermediate_reasoning": {
+        "component": "intermediate_reasoning",
+        "component_reasoning": {
+          "tree_of_thoughts": {
+            "component": "tree_of_thoughts",
+            "reasoning_cycle_id": "reason_1767144445335",
+            "timestamp": 1767144484.2452435,
+            "planning_stages": [
+              "strategy_selection",
+              "detailed_planning"
+            ],
+            "llm_used": true,
+            "strategy_decision": {
+              "strategy_type": "proximity_first",
+              "strategy_reasoning": "proximity_first",
+              "confidence": 0.7,
+              "mission_analysis": "Finding keys in unknown",
+              "key_considerations": [
+                "speed",
+                "accuracy",
+                "object locations"
+              ],
+              "raw_prompt": "Choose best search strategy for finding keys:\n\n        Options: proximity_first, priority_first, systematic_search, room_exploration\n\n        Mission: unknown\n        Location: unknown\n        Objects available: \n\n        Answer with ONE word from the options above, then a brief reason.\n\n        Example: \"proximity_first - check closest objects first\"\n\n        Your answer:",
+              "raw_response": "proximity_first",
+              "context_objects": []
+            },
+            "detailed_plan": {
+              "target_objects": [
+                [
+                  "ceiling",
+                  "wall",
+                  "door",
+                  "handle",
+                  "chandelier",
+                  "wardrobe",
+                  "tv",
+                  "cabinet",
+                  "blanket",
+                  "pad",
+                  "bed",
+                  "pillow",
+                  "nightstand",
+                  "book",
+                  "lamp",
+                  "toy",
+                  "window",
+                  "frame",
+                  "armchair",
+                  "floor",
+                  "mat",
+                  "towel",
+                  "bucket",
+                  "tap",
+                  "soap",
+                  "toilet",
+                  "brush",
+                  "curtain",
+                  "photo",
+                  "sheet",
+                  "ventilation",
+                  "vent",
+                  "light",
+                  "bicycle",
+                  "box",
+                  "couch",
+                  "basket",
+                  "magazine",
+                  "papers",
+                  "picture",
+                  "unknown",
+                  "folder",
+                  "table",
+                  "chair",
+                  "handbag",
+                  "tower",
+                  "trashcan",
+                  "desk",
+                  "printer",
+                  "telephone",
+                  "plant",
+                  "shirt",
+                  "bag",
+                  "newspaper",
+                  "balustrade",
+                  "stairs",
+                  "rod",
+                  "speaker",
+                  "fireplace",
+                  "flower",
+                  "plate",
+                  "pillar",
+                  "alarm",
+                  "control",
+                  "clock",
+                  "flag",
+                  "refrigerator",
+                  "appliance",
+                  "machine",
+                  "mug",
+                  "worktop",
+                  "sink",
+                  "holder",
+                  "microwave",
+                  "item",
+                  "stove",
+                  "bowl",
+                  "dishwasher",
+                  "paper",
+                  "seat",
+                  "shelf",
+                  "doormat",
+                  "hood",
+                  "dresser",
+                  "casket",
+                  "decoration",
+                  "controller",
+                  "dial",
+                  "bath",
+                  "accessory",
+                  "mirror",
+                  "bottle",
+                  "shoe",
+                  "board",
+                  "iron",
+                  "clothes",
+                  "case",
+                  "briefcase",
+                  "backpack",
+                  "boxes"
+                ]
+              ],
+              "search_pattern": "grid_search",
+              "object_priority": [
+                [
+                  "ceiling",
+                  "wall",
+                  "door",
+                  "handle",
+                  "chandelier",
+                  "wardrobe",
+                  "tv",
+                  "cabinet",
+                  "blanket",
+                  "pad",
+                  "bed",
+                  "pillow",
+                  "nightstand",
+                  "book",
+                  "lamp",
+                  "toy",
+                  "window",
+                  "frame",
+                  "armchair",
+                  "floor",
+                  "mat",
+                  "towel",
+                  "bucket",
+                  "tap",
+                  "soap",
+                  "toilet",
+                  "brush",
+                  "curtain",
+                  "photo",
+                  "sheet",
+                  "ventilation",
+                  "vent",
+                  "light",
+                  "bicycle",
+                  "box",
+                  "couch",
+                  "basket",
+                  "magazine",
+                  "papers",
+                  "picture",
+                  "unknown",
+                  "folder",
+                  "table",
+                  "chair",
+                  "handbag",
+                  "tower",
+                  "trashcan",
+                  "desk",
+                  "printer",
+                  "telephone",
+                  "plant",
+                  "shirt",
+                  "bag",
+                  "newspaper",
+                  "balustrade",
+                  "stairs",
+                  "rod",
+                  "speaker",
+                  "fireplace",
+                  "flower",
+                  "plate",
+                  "pillar",
+                  "alarm",
+                  "control",
+                  "clock",
+                  "flag",
+                  "refrigerator",
+                  "appliance",
+                  "machine",
+                  "mug",
+                  "worktop",
+                  "sink",
+                  "holder",
+                  "microwave",
+                  "item",
+                  "stove",
+                  "bowl",
+                  "dishwasher",
+                  "paper",
+                  "seat",
+                  "shelf",
+                  "doormat",
+                  "hood",
+                  "dresser",
+                  "casket",
+                  "decoration",
+                  "controller",
+                  "dial",
+                  "bath",
+                  "accessory",
+                  "mirror",
+                  "bottle",
+                  "shoe",
+                  "board",
+                  "iron",
+                  "clothes",
+                  "case",
+                  "briefcase",
+                  "backpack",
+                  "boxes"
+                ]
+              ],
+              "reasoning": "\"\"\"\n    \n    # Create an empty dictionary for storing results\n    result = {}\n    \n    # Loop throug",
+              "expected_success": 0.7,
+              "fallback_objects": [
+                "sofa",
+                "chair"
+              ]
+            },
+            "reasoning_chain": [
+              {
+                "stage": "strategy_selection",
+                "timestamp": 1767144448.9988668,
+                "input_context": {
+                  "mission": "unknown",
+                  "room_type": "unknown",
+                  "key_objects": [],
+                  "objects_count": 0,
+                  "risk_level": "medium"
+                },
+                "llm_prompt": "Choose best search strategy for finding keys:\n\n        Options: proximity_first, priority_first, systematic_search, room_exploration\n\n        Mission: unknown\n        Location: unknown\n        Objects available: \n\n        Answer with ONE word from the options above, then a brief reason.\n\n        Exa",
+                "llm_response": "proximity_first",
+                "output_reasoning": {
+                  "strategy_type": "proximity_first",
+                  "strategy_reasoning": "proximity_first",
+                  "confidence": 0.7
+                }
+              },
+              {
+                "stage": "detailed_planning",
+                "timestamp": 1767144484.2452292,
+                "input_context": {
+                  "mission": "Finding keys in unknown",
+                  "strategy": "proximity_first",
+                  "stage1_reasoning": "proximity_first",
+                  "available_objects": []
+                },
+                "llm_prompt": "Based on this strategy reasoning, create a search plan:\n\n        STRATEGY CHOSEN: proximity_first\n        REASONING: proximity_first\n\n        CREATE SEARCH PLAN FOR: Finding keys in unknown\n        AVAILABLE OBJECTS: \n\n        Return ONLY this JSON:\n        {\n            \"target_objects\": [\"object1\"",
+                "llm_response": "\"\"\"\n    \n    # Create an empty dictionary for storing results\n    result = {}\n    \n    # Loop through each object and check if it matches the strategy\n    for obj in available_objects:\n        if pattern == 'proximity_first':\n            \n            # Check distance between current location and all",
+                "output_reasoning": {
+                  "target_objects": [
+                    [
+                      "ceiling",
+                      "wall",
+                      "door",
+                      "handle",
+                      "chandelier",
+                      "wardrobe",
+                      "tv",
+                      "cabinet",
+                      "blanket",
+                      "pad",
+                      "bed",
+                      "pillow",
+                      "nightstand",
+                      "book",
+                      "lamp",
+                      "toy",
+                      "window",
+                      "frame",
+                      "armchair",
+                      "floor",
+                      "mat",
+                      "towel",
+                      "bucket",
+                      "tap",
+                      "soap",
+                      "toilet",
+                      "brush",
+                      "curtain",
+                      "photo",
+                      "sheet",
+                      "ventilation",
+                      "vent",
+                      "light",
+                      "bicycle",
+                      "box",
+                      "couch",
+                      "basket",
+                      "magazine",
+                      "papers",
+                      "picture",
+                      "unknown",
+                      "folder",
+                      "table",
+                      "chair",
+                      "handbag",
+                      "tower",
+                      "trashcan",
+                      "desk",
+                      "printer",
+                      "telephone",
+                      "plant",
+                      "shirt",
+                      "bag",
+                      "newspaper",
+                      "balustrade",
+                      "stairs",
+                      "rod",
+                      "speaker",
+                      "fireplace",
+                      "flower",
+                      "plate",
+                      "pillar",
+                      "alarm",
+                      "control",
+                      "clock",
+                      "flag",
+                      "refrigerator",
+                      "appliance",
+                      "machine",
+                      "mug",
+                      "worktop",
+                      "sink",
+                      "holder",
+                      "microwave",
+                      "item",
+                      "stove",
+                      "bowl",
+                      "dishwasher",
+                      "paper",
+                      "seat",
+                      "shelf",
+                      "doormat",
+                      "hood",
+                      "dresser",
+                      "casket",
+                      "decoration",
+                      "controller",
+                      "dial",
+                      "bath",
+                      "accessory",
+                      "mirror",
+                      "bottle",
+                      "shoe",
+                      "board",
+                      "iron",
+                      "clothes",
+                      "case",
+                      "briefcase",
+                      "backpack",
+                      "boxes"
+                    ]
+                  ],
+                  "search_pattern": "grid_search",
+                  "object_priority": [
+                    [
+                      "ceiling",
+                      "wall",
+                      "door",
+                      "handle",
+                      "chandelier",
+                      "wardrobe",
+                      "tv",
+                      "cabinet",
+                      "blanket",
+                      "pad",
+                      "bed",
+                      "pillow",
+                      "nightstand",
+                      "book",
+                      "lamp",
+                      "toy",
+                      "window",
+                      "frame",
+                      "armchair",
+                      "floor",
+                      "mat",
+                      "towel",
+                      "bucket",
+                      "tap",
+                      "soap",
+                      "toilet",
+                      "brush",
+                      "curtain",
+                      "photo",
+                      "sheet",
+                      "ventilation",
+                      "vent",
+                      "light",
+                      "bicycle",
+                      "box",
+                      "couch",
+                      "basket",
+                      "magazine",
+                      "papers",
+                      "picture",
+                      "unknown",
+                      "folder",
+                      "table",
+                      "chair",
+                      "handbag",
+                      "tower",
+                      "trashcan",
+                      "desk",
+                      "printer",
+                      "telephone",
+                      "plant",
+                      "shirt",
+                      "bag",
+                      "newspaper",
+                      "balustrade",
+                      "stairs",
+                      "rod",
+                      "speaker",
+                      "fireplace",
+                      "flower",
+                      "plate",
+                      "pillar",
+                      "alarm",
+                      "control",
+                      "clock",
+                      "flag",
+                      "refrigerator",
+                      "appliance",
+                      "machine",
+                      "mug",
+                      "worktop",
+                      "sink",
+                      "holder",
+                      "microwave",
+                      "item",
+                      "stove",
+                      "bowl",
+                      "dishwasher",
+                      "paper",
+                      "seat",
+                      "shelf",
+                      "doormat",
+                      "hood",
+                      "dresser",
+                      "casket",
+                      "decoration",
+                      "controller",
+                      "dial",
+                      "bath",
+                      "accessory",
+                      "mirror",
+                      "bottle",
+                      "shoe",
+                      "board",
+                      "iron",
+                      "clothes",
+                      "case",
+                      "briefcase",
+                      "backpack",
+                      "boxes"
+                    ]
+                  ],
+                  "reasoning": "\"\"\"\n    \n    # Create an empty dictionary for storing results\n    result = {}\n    \n    # Loop throug",
+                  "expected_success": 0.7,
+                  "parsed_from_json": true
+                }
+              }
+            ],
+            "input_context": {
+              "minimal_context": {
+                "mission": "unknown",
+                "room_type": "unknown",
+                "key_objects": [],
+                "objects_count": 0,
+                "risk_level": "medium"
+              },
+              "focused_context": {
+                "mission": "Finding keys in unknown",
+                "room_type": "unknown",
+                "relevant_objects": [],
+                "current_position": [
+                  0,
+                  0
+                ]
+              }
+            },
+            "execution_ready_plan": {
+              "strategy_type": "proximity_first",
+              "search_pattern": "grid_search",
+              "expected_duration": "medium"
+            }
+          },
+          "spatial_reasoning": {
+            "reachability_analysis": {
+              "reachable_objects": [],
+              "total_reachable": 0,
+              "unreachable_reason": "distance_or_risk"
+            },
+            "search_strategy": {
+              "priority_list": [],
+              "top_priority": null,
+              "total_objects_prioritized": 0
+            },
+            "safety_analysis": {
+              "risk_zones": [],
+              "high_risk_count": 0,
+              "medium_risk_count": 0
+            },
+            "perception_analysis": {
+              "visibility_scores": {},
+              "best_visible": null,
+              "worst_visible": null
+            },
+            "navigation_analysis": {
+              "path_feasibility": {},
+              "most_feasible_room": null,
+              "least_feasible_room": null
+            },
+            "exploration_analysis": {
+              "room_connectivity": [],
+              "unexplored_rooms": [],
+              "next_exploration_target": null
+            },
+            "recommendations": [
+              "Continue current exploration pattern"
+            ],
+            "summary_metrics": {
+              "total_objects_analyzed": 0,
+              "safe_navigation_paths": 0,
+              "exploration_progress": 0.0
+            },
+            "reasoning_cycle_id": "reason_1767144445335",
+            "component_name": "spatial_reasoning",
+            "pipeline_timestamp": 1767144484.3206549,
+            "processing_stages": [
+              "reachability",
+              "priority",
+              "risk",
+              "visibility",
+              "navigation",
+              "exploration"
+            ]
+          }
+        },
+        "timestamp": 1767144484.2457027,
+        "reasoning_cycle_id": "reason_1767144445335"
+      },
+      "final_action": {
+        "reasoning_cycle_id": "reason_1767144445335",
+        "timestamp": 1767144484.3233376,
+        "selected_action": {
+          "type": "move_forward",
+          "action": "move_forward",
+          "parameters": {
+            "target_object": "ceiling",
+            "search_pattern": "grid_search",
+            "source": "tree_of_thoughts",
+            "target_coordinates": null
+          }
+        },
+        "planned_actions": [
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "ceiling",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "wall",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "door",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "handle",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "chandelier",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "wardrobe",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "tv",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "cabinet",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "blanket",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "pad",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "bed",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "pillow",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "nightstand",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "book",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "lamp",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "toy",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "window",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "frame",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "armchair",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "floor",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "mat",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "towel",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "bucket",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "tap",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "soap",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "toilet",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "brush",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "curtain",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "photo",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "sheet",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "ventilation",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "vent",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "light",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "bicycle",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "box",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "couch",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "basket",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "magazine",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "papers",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "picture",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "unknown",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "folder",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "table",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "chair",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "handbag",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "tower",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "trashcan",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "desk",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "printer",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "telephone",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "plant",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "shirt",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "bag",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "newspaper",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "balustrade",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "stairs",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "rod",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "speaker",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "fireplace",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "flower",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "plate",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "pillar",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "alarm",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "control",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "clock",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "flag",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "refrigerator",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "appliance",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "machine",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "mug",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "worktop",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "sink",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "holder",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "microwave",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "item",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "stove",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "bowl",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "dishwasher",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "paper",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "seat",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "shelf",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "doormat",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "hood",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "dresser",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "casket",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "decoration",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "controller",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "dial",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "bath",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "accessory",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "mirror",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "bottle",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "shoe",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "board",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "iron",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "clothes",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "case",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "briefcase",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "backpack",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          },
+          {
+            "type": "move_forward",
+            "action": "move_forward",
+            "parameters": {
+              "target_object": "boxes",
+              "search_pattern": "grid_search",
+              "source": "tree_of_thoughts",
+              "target_coordinates": null
+            }
+          }
+        ],
+        "confidence": 0.48999999999999994,
+        "reasoning_source": "unknown",
+        "components_used": [
+          "tree_of_thoughts",
+          "spatial_reasoning"
+        ],
+        "component": "final_action",
+        "task_status": "pending_execution",
+        "execution_attempts": 0,
+        "last_execution_attempt": null,
+        "completion_status": "not_started",
+        "execution_metadata": {
+          "requires_confirmation": true,
+          "estimated_duration": "pending",
+          "prerequisites_met": true,
+          "safety_clearance": "pending"
+        }
+      }
+    }
+  },
+  "current_action_plan": {
+    "reasoning_cycle_id": "reason_1767144445335",
+    "timestamp": 1767144484.3233376,
+    "selected_action": {
+      "type": "move_forward",
+      "action": "move_forward",
+      "parameters": {
+        "target_object": "ceiling",
+        "search_pattern": "grid_search",
+        "source": "tree_of_thoughts",
+        "target_coordinates": null
+      }
+    },
+    "planned_actions": [
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "ceiling",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "wall",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "door",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "handle",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "chandelier",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "wardrobe",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "tv",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "cabinet",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "blanket",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "pad",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "bed",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "pillow",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "nightstand",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "book",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "lamp",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "toy",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "window",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "frame",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "armchair",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "floor",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "mat",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "towel",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "bucket",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "tap",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "soap",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "toilet",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "brush",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "curtain",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "photo",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "sheet",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "ventilation",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "vent",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "light",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "bicycle",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "box",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "couch",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "basket",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "magazine",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "papers",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "picture",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "unknown",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "folder",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "table",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "chair",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "handbag",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "tower",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "trashcan",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "desk",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "printer",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "telephone",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "plant",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "shirt",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "bag",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "newspaper",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "balustrade",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "stairs",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "rod",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "speaker",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "fireplace",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "flower",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "plate",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "pillar",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "alarm",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "control",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "clock",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "flag",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "refrigerator",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "appliance",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "machine",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "mug",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "worktop",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "sink",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "holder",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "microwave",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "item",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "stove",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "bowl",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "dishwasher",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "paper",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "seat",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "shelf",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "doormat",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "hood",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "dresser",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "casket",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "decoration",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "controller",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "dial",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "bath",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "accessory",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "mirror",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "bottle",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "shoe",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "board",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "iron",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "clothes",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "case",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "briefcase",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "backpack",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      },
+      {
+        "type": "move_forward",
+        "action": "move_forward",
+        "parameters": {
+          "target_object": "boxes",
+          "search_pattern": "grid_search",
+          "source": "tree_of_thoughts",
+          "target_coordinates": null
+        }
+      }
+    ],
+    "confidence": 0.48999999999999994,
+    "reasoning_source": "unknown",
+    "components_used": [
+      "tree_of_thoughts",
+      "spatial_reasoning"
+    ],
+    "component": "final_action",
+    "task_status": "pending_execution",
+    "execution_attempts": 0,
+    "last_execution_attempt": null,
+    "completion_status": "not_started",
+    "execution_metadata": {
+      "requires_confirmation": true,
+      "estimated_duration": "pending",
+      "prerequisites_met": true,
+      "safety_clearance": "pending"
+    }
+  },
+  "current_task": {
+    "task_id": "perception_pipeline",
+    "created_at": 1767144443.1266875,
+    "perception_status": "initialized",
+    "last_update": 1767144443.1266894
+  }
+}
