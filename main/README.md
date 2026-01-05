@@ -1,11 +1,6 @@
 Actively Building !! 
 Work in Progress !! 
 
-
-This README provides a comprehensive overview of your robotics pipeline, organized by its modular directory structure. It highlights how the **Perception**, **Prediction**, **Reasoning**, and **Action** layers interact through the centralized **Stores**.
-
----
-
 # 🤖 Modular Robotics Navigation Pipeline
 
 This repository contains a multi-stage pipeline for autonomous robot navigation, featuring SLAM integration, I-JEPA-based world modeling, Tree-of-Thoughts planning, and continuous velocity control.
